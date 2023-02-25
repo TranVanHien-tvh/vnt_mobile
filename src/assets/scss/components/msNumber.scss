@@ -1,0 +1,56 @@
+.ms-number {
+  background: $white;
+  align-items: center;
+  padding: 0;
+
+  .icon {
+    &.left {
+      margin-right: 6px;
+    }
+  }
+}
+
+.ms-number-item {
+  border: none;
+  // line-height: 34px;
+  padding: 9px 12px;
+  text-align: right;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.ms-number-spin {
+  width: 30px;
+  height: 34px;
+}
+
+.spin {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    background: transparent url($ms-year-picker-icon) no-repeat 3px 2px;
+    width: 14px;
+    height: 10px;
+    left: 8px;
+    background-position: 3px 2px;
+  }
+
+  &.up::before {
+    top: 6px;
+  }
+  &.down::before {
+    transform: rotate(180deg);
+    top: 2px;
+  }
+
+  &:hover {
+    background-color: $button-secondary-outline-hover-bg;
+    cursor: pointer;
+  }
+  &:active {
+    background-color: $button-secondary-outline-active-bg;
+  }
+}

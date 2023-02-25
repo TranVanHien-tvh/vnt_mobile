@@ -1,0 +1,72 @@
+.ms-datepicker {
+  position: relative;
+  background: transparent;
+
+  .combo-title{
+    padding-bottom: 8px;
+  }
+
+  .ms-container--datepicker{
+    background: #FFFFFF;
+  }
+  
+  .ms-input--datepicker {
+    // height: 35px;
+    border: none;
+    height: 36px;
+    width: 100%;
+    outline: none;
+    box-shadow: none;
+    padding: 0 0 0 12px;
+    background: transparent;
+  }
+}
+
+.ms-calendar {
+  width: 34px;
+  position: relative;
+  cursor: pointer;
+
+  &::before {
+    content: "";
+    position: absolute;
+    // background: transparent url($ms-image-sprites) no-repeat -264px 0;
+    background-image: url('~@/assets/images/icons/vnt/fluent_calendar.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 24px;
+    width: 24px;
+    margin: 5px 0 0 12px;
+  }
+}
+
+.disabled,
+:disabled {
+  background-color: $input-disabled-bg;
+  color: $input-disabled-color;
+}
+
+.datepicker-content {
+  position: absolute;
+  z-index: 10000;
+  background-color: #fff;
+}
+.ms-datepicker {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 9px;
+  box-sizing: content-box;
+  font-family: GoogleSans,SFProDisplay,Roboto,Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  color: #212121;
+  position: relative;
+  left: unset;
+  opacity: 100;
+  transition: opacity .3s ease,left 0s .3s,-webkit-transform .3s ease;
+  transition: opacity .3s ease,transform .3s ease,left 0s .3s;
+  transition: opacity .3s ease,transform .3s ease,left 0s .3s,-webkit-transform .3s ease;
+}
+.datepicker {
+  opacity: 100;
+}

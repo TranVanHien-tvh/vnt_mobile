@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="31" viewBox="0 0 31 31">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.075" y1="0.08" x2="0.871" y2="0.866" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff7043"/>
+      <stop offset="1" stop-color="#ff5722"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="2.788" y1="2.457" x2="2.788" y2="1.586" gradientUnits="objectBoundingBox">
+      <stop offset="0.243" stop-color="#a3dcff"/>
+      <stop offset="0.443" stop-color="#abdfff" stop-opacity="0.98"/>
+      <stop offset="0.675" stop-color="#c5e8ff" stop-opacity="0.925"/>
+      <stop offset="0.923" stop-color="#eff8ff" stop-opacity="0.835"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-2.566" y1="-0.227" x2="-2.566" y2="-1.098" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffe0a3"/>
+      <stop offset="0.243" stop-color="#a3dcff"/>
+      <stop offset="0.443" stop-color="#abdfff" stop-opacity="0.98"/>
+      <stop offset="0.675" stop-color="#c5e8ff" stop-opacity="0.925"/>
+      <stop offset="0.923" stop-color="#eff8ff" stop-opacity="0.835"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="1.351" y1="0.234" x2="-1.478" y2="1.117" gradientUnits="objectBoundingBox">
+      <stop offset="0.201" stop-color="#fff"/>
+      <stop offset="0.235" stop-color="#fffaf6"/>
+      <stop offset="0.321" stop-color="#fff0e5"/>
+      <stop offset="0.429" stop-color="#ffe9da"/>
+      <stop offset="0.58" stop-color="#ffe5d3"/>
+      <stop offset="1" stop-color="#ffe4d1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="1.438" y1="1.617" x2="-0.319" y2="-0.122" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fbc139"/>
+      <stop offset="1" stop-color="#ff5722"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_52908" data-name="Group 52908" transform="translate(-460 -1688.003)">
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="31" height="31" rx="8" transform="translate(460 1688.003)" fill="url(#linear-gradient)"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(466.958 1707.406)">
+      <path id="Path_1" data-name="Path 1" d="M506.721,1743.788l-2.875-.224a.758.758,0,0,0-.606.231l-1.994,2.083a.757.757,0,0,1-1.255-.254l-1.648-4.316a.758.758,0,0,1,.438-.978l6.08-2.322a.758.758,0,0,1,.978.438l1.648,4.315A.758.758,0,0,1,506.721,1743.788Z" transform="translate(-490.469 -1737.959)" opacity="0.9" fill="url(#linear-gradient-2)"/>
+      <path id="Path_2" data-name="Path 2" d="M478.842,1743.788l2.874-.224a.758.758,0,0,1,.606.231l1.994,2.083a.758.758,0,0,0,1.255-.254l1.648-4.316a.758.758,0,0,0-.437-.978l-6.08-2.322a.758.758,0,0,0-.978.438l-1.648,4.315A.758.758,0,0,0,478.842,1743.788Z" transform="translate(-478.025 -1737.959)" opacity="0.9" fill="url(#linear-gradient-3)"/>
+    </g>
+    <g id="Group_52907" data-name="Group 52907" transform="translate(465.598 1691.98)">
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="9.458" cy="9.458" r="9.458" transform="translate(0 0)" fill="url(#linear-gradient-4)"/>
+      <path id="Path_71" data-name="Path 71" d="M43.086,41.048l.061.061a1.4,1.4,0,0,1,.014,1.984,7.4,7.4,0,1,1,0-10.392,1.414,1.414,0,0,1-.014,1.984l-.061.061a1.426,1.426,0,0,1-2.024-.027,4.484,4.484,0,0,0-3.168-1.307,4.43,4.43,0,0,0-1.984.46,4.481,4.481,0,0,0,0,8.043,4.43,4.43,0,0,0,1.984.46,4.484,4.484,0,0,0,3.168-1.307A1.42,1.42,0,0,1,43.086,41.048Z" transform="translate(-28.435 -28.435)" fill="url(#linear-gradient-5)"/>
+    </g>
+    <path id="Path_4" data-name="Path 4" d="M494.875,1720.472l-1.006.529a.318.318,0,0,1-.461-.335l.192-1.12a.318.318,0,0,0-.091-.281l-.814-.793a.318.318,0,0,1,.176-.542l1.125-.164a.317.317,0,0,0,.239-.174l.5-1.019a.318.318,0,0,1,.569,0l.5,1.019a.316.316,0,0,0,.239.174l1.125.164a.317.317,0,0,1,.176.542l-.814.793a.319.319,0,0,0-.091.281l.192,1.12a.317.317,0,0,1-.461.335l-1.006-.529A.316.316,0,0,0,494.875,1720.472Z" transform="translate(-20.014 -17.315)" fill="#ff5722"/>
+  </g>
+</svg>

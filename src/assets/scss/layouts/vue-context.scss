@@ -1,0 +1,91 @@
+$menu-bg: #fff;
+$menu-border: rgba(0, 0, 0, 0.15);
+$item-color: #212529;
+$item-hover-bg:  #e8f5f7;
+$item-hover-color: #212529;
+
+
+.v-context {
+    &, & ul {
+        background-color: $menu-bg;
+        background-clip: padding-box;
+        border-radius: 4px;
+        box-shadow: 0 3px 16px rgba(0, 0, 0, .16);
+        display: block;
+        margin: 0;
+        padding: 8px 0;
+        z-index: 100000;
+        position: fixed;
+        list-style: none;
+        box-sizing: border-box;
+        max-height: calc(100% - 50px);
+        overflow-y: auto;
+
+        > li {
+            margin: 0;
+            position: relative;
+            > .menu-item {
+                display: block;
+                padding: 12px 4px 12px 0;
+                text-decoration: none;
+                white-space: nowrap;
+                background-color: transparent;
+                border: 0;
+                margin: 0 8px;
+                min-width: 80px;
+                border-radius: 4px;
+                position: relative;
+
+                &.has-icon {
+                    padding-left: 36px;
+                }
+
+                .menu-icon {
+                    position: absolute;
+                    top: 8px;
+                    left: 4px;
+                    width: 20px;
+                    margin: 0;
+                }
+
+                &:hover,
+                &:focus {
+                    text-decoration: none;
+                    color: $item-hover-color;
+                    background-color: #eff1f6;
+                    cursor: pointer;
+                }
+
+                &:focus {
+                    outline: 0;
+                }
+
+                &.disabled{
+                    color: #d2d2d2;
+                }
+                &.disabled:hover,
+                &.disabled:focus {
+                    text-decoration: none;
+                    color: none;
+                    background-color: #fff;
+                }
+            }
+        }
+
+        &:focus {
+            outline: 0;
+        }
+    }
+
+    &__sub {
+        > a:after {
+            content: "\203A";
+            float: right;
+            padding-left: 1rem;
+        }
+
+        > ul {
+          display: none;
+        }
+    }
+}

@@ -1,0 +1,168 @@
+@import "@/assets/scss/_variables.scss";
+.ms-collapse {
+    transition: all .3s ease;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+    &.shadow {
+        .open-item {
+            transform: scale(1.01);
+            box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.05);
+            margin-top: 5px;
+            border-bottom: 0 solid rgba(0, 0, 0, 0);
+            margin-bottom: 10px;
+            border-radius: 6px;
+            .ms-collapse-item--icon-header {
+                transform: translate(-50%, -50%) rotate(0deg);
+            }
+            .con-content-item {
+                opacity: 1;
+            }
+        }
+    }
+    &.margin {
+        .ms-collapse-item {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.05);
+            border-radius: 5px;
+            border-bottom: 0 solid rgba(0, 0, 0, 0);
+        }
+        .open-item {
+            .con-content-item {
+                opacity: 1;
+            }
+            .ms-collapse-item--icon-header {
+                transform: translate(-50%, -50%) rotate(0deg);
+            }
+        }
+    }
+    &.border {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0;
+        // .ms-collapse-item {
+        //     // border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        // }
+        .open-item {
+            .con-content-item {
+                opacity: 1;
+            }
+            .ms-collapse-item--icon-header {
+                transform: translate(-50%, -50%) rotate(0deg);
+            }
+        }
+    }
+    &.default {
+        .open-item {
+            .con-content--item {
+                opacity: 1;
+            }
+            .ms-collapse-item--icon-header {
+                transform: translate(-50%, -50%) rotate(0deg);
+            }
+            &.secondary-collapse {
+                .ms-collapse-secondary-item--icon-header {
+                    transform: translate(-50%, -50%) rotate(-90deg);
+                }
+            }
+        }
+    }
+}
+
+.ms-collapse-item {
+    // border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+    transition: all .2s ease-out;
+    &.open-item {
+        .con-content--item {
+            opacity: 1;
+        }
+    }
+    &.disabledx {
+        opacity: $ms-disabled-opacity;
+        cursor: default;
+        pointer-events: none;
+        z-index: 999;
+    }
+    &:last-child {
+        border-bottom: 0 solid rgba(0, 0, 0, 0);
+    }
+    &.secondary-collapse {
+        background-color: $ms-primary-background-color;
+        .secondary-collapse--icon {
+            left: unset;
+            right: 0;
+        }
+    }
+    &:hover {
+        .ms-collapse-item--header {
+            color: $ms-tab__item--active-text-color;
+        }
+    }
+    &:focus {
+        .ms-collapse-item--header {
+            color: $ms-tab__item--active-text-color;
+        }
+    }
+}
+
+.ms-collapse-item--header {
+    font-size: 18px;
+    display: block;
+    padding: 10px;//style kiểu này không chuẩn. Có thể phù hợp với 1 vài form nhưng không thể là style base. Chưa sửa lại do có quá nhiều ảnh hưởng.
+    position: relative;
+    transition: all .2s ease-out;
+    color: inherit;
+    padding-left: 14px;
+    // &:focus {
+    //     outline: 1px dotted #2ca01c;
+    // }
+}
+
+.ms-collapse-item--icon-header {
+    position: absolute;
+    left: 4px;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    display: block;
+    transition: all .2s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.ms-collapse-secondary-item--icon-header {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    display: block;
+    transition: all .2s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.ms-collapse-item--label {
+    font-size: $ms-collapse__label-font-size;
+}
+.ms-collapse-item--content {
+    overflow: hidden;
+    transition: all .2s ease-out;
+}
+
+.con-content--item {
+    padding: 0 10px 10px;
+    // font-size: .85rem;
+    opacity: 1;
+    transition: all .2s ease-out;
+}
+
+.open-item .ms-collapse-item--content {
+    padding-top: 1px;
+    overflow: hidden;
+}
+
+.title-green {
+    color: #2ca01c;
+}

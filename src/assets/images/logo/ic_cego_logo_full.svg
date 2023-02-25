@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="226.909" height="64" viewBox="0 0 226.909 64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="226.909" height="64" transform="translate(0 0.388)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.075" y1="0.08" x2="0.871" y2="0.866" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff6d00"/>
+      <stop offset="1" stop-color="#ff5722"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1.351" y1="0.234" x2="-1.478" y2="1.117" gradientUnits="objectBoundingBox">
+      <stop offset="0.201" stop-color="#fff"/>
+      <stop offset="0.235" stop-color="#fffaf6"/>
+      <stop offset="0.321" stop-color="#fff0e5"/>
+      <stop offset="0.429" stop-color="#ffe9da"/>
+      <stop offset="0.58" stop-color="#ffe5d3"/>
+      <stop offset="1" stop-color="#ffe4d1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="1.438" y1="1.617" x2="-0.319" y2="-0.122" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fbc139"/>
+      <stop offset="1" stop-color="#ff5722"/>
+    </linearGradient>
+  </defs>
+  <g id="d" transform="translate(0 -0.388)" clip-path="url(#clip-path)">
+    <g id="Group_14" data-name="Group 14" transform="translate(10.182 6.933)">
+      <g id="Group_13" data-name="Group 13" transform="translate(0 2.182)">
+        <rect id="Rectangle_7" data-name="Rectangle 7" width="43.636" height="43.636" rx="8" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+        <g id="Group_11" data-name="Group 11" transform="translate(9.758 27.281)">
+          <path id="Path_10" data-name="Path 10" d="M510.238,1746.216l-4.074-.317a1.073,1.073,0,0,0-.858.328l-2.826,2.952a1.074,1.074,0,0,1-1.778-.36l-2.336-6.117a1.074,1.074,0,0,1,.62-1.386l8.617-3.291a1.074,1.074,0,0,1,1.386.62l2.336,6.117a1.074,1.074,0,0,1-1.087,1.454Z" transform="translate(-487.206 -1737.954)" fill="#fbe9e7" opacity="0.77"/>
+          <path id="Path_11" data-name="Path 11" d="M479.188,1746.218l4.074-.317a1.073,1.073,0,0,1,.858.328l2.826,2.952a1.074,1.074,0,0,0,1.779-.36l2.336-6.116a1.074,1.074,0,0,0-.62-1.386l-8.618-3.291a1.074,1.074,0,0,0-1.386.62l-2.336,6.116a1.074,1.074,0,0,0,1.087,1.454Z" transform="translate(-478.031 -1737.956)" fill="#fbe9e7" opacity="0.69"/>
+        </g>
+        <g id="Group_12" data-name="Group 12" transform="translate(7.829 5.419)">
+          <circle id="Ellipse_4" data-name="Ellipse 4" cx="13.405" cy="13.405" r="13.405" transform="translate(0 0)" fill="url(#linear-gradient-2)"/>
+        </g>
+        <path id="Path_12" data-name="Path 12" d="M-1884.346,123.2a10.464,10.464,0,0,1-4.654-8.714,10.493,10.493,0,0,1,4.654-8.722,10.452,10.452,0,0,1,5.824-1.765,10.451,10.451,0,0,1,7.465,3.118,2,2,0,0,1-.019,2.811l-.086.087a2.022,2.022,0,0,1-1.443.578,2.022,2.022,0,0,1-1.427-.616,6.355,6.355,0,0,0-4.491-1.852,6.279,6.279,0,0,0-2.812.653,6.361,6.361,0,0,0-3.55,5.7,6.361,6.361,0,0,0,3.55,5.7,6.279,6.279,0,0,0,2.812.653,6.355,6.355,0,0,0,4.491-1.852,2.013,2.013,0,0,1,1.428-.615,2.013,2.013,0,0,1,1.441.586l.086.086a1.987,1.987,0,0,1,.592,1.4,1.985,1.985,0,0,1-.573,1.41,10.434,10.434,0,0,1-7.465,3.119,10.452,10.452,0,0,1-5.824-1.766Zm7.393-5.536-1.426-.75a.45.45,0,0,0-.419,0l-1.426.75a.45.45,0,0,1-.474-.034.45.45,0,0,1-.179-.44l.272-1.588a.45.45,0,0,0-.129-.4l-1.154-1.124a.45.45,0,0,1-.114-.461.449.449,0,0,1,.363-.306l1.594-.232a.449.449,0,0,0,.339-.246l.713-1.444a.45.45,0,0,1,.4-.251.45.45,0,0,1,.4.251l.713,1.444a.449.449,0,0,0,.339.246l1.594.232a.45.45,0,0,1,.363.306.45.45,0,0,1-.114.461l-1.154,1.124a.452.452,0,0,0-.13.4l.272,1.588a.451.451,0,0,1-.1.366.451.451,0,0,1-.344.161.447.447,0,0,1-.209-.054Z" transform="translate(1899.755 -95.654)" fill="url(#linear-gradient-3)"/>
+      </g>
+      <text id="MISA_CeGo" data-name="MISA CeGo" transform="translate(56.727 28)" fill="#fff" font-size="29" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.09em"><tspan x="0" y="0">M</tspan><tspan y="0" letter-spacing="-0.03em">I</tspan><tspan y="0" letter-spacing="-0.05em">S</tspan><tspan y="0" letter-spacing="-0.01em">A </tspan><tspan y="0" letter-spacing="-0.05em">C</tspan><tspan y="0" letter-spacing="-0.02em">e</tspan><tspan y="0" letter-spacing="-0.04em">G</tspan><tspan y="0" letter-spacing="-0.01em">o</tspan></text>
+      <text id="Quản_lý_thi_đua_khen_thưởng" data-name="Quản lý thi đua khen thưởng" transform="translate(58.182 42.273)" fill="#fff" font-size="11" font-family="SegoeUI, Segoe UI" letter-spacing="0.025em"><tspan x="0" y="0">Quản lý thi đua khen thưởng</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+.ms-tooltip-employee {
+  width: 280px;
+  height: 88px;
+  left: -120px !important;
+}
+.ms-tooltip-employee .tooltip-employee-left {
+  width: 72px;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+.ms-tooltip-employee .tooltip-employee-left .tooltip-employee-left-avatar {
+  width: 24px;
+  height: 24px;
+  margin: 24px;
+  background-image: url("~@/assets/images/icons/sprites.svg");
+  -moz-transform: scale(2, 2);
+  -webkit-transform: scale(2, 2);
+  background-position: 168px -256px;
+}
+.ms-tooltip-employee .tooltip-employee-right {
+  width: calc(100% - 72px);
+  height: 88px;
+  position: absolute;
+  top: 0px;
+  left: 72px;
+}
+.ms-tooltip-employee .tooltip-employee-right .tooltip-employee-text-wrapper {
+  width: calc(100% - 10px);
+  height: calc(100% - 20px);
+  margin: 10px 0;
+}
+.ms-tooltip-employee
+  .tooltip-employee-right
+  .tooltip-employee-text-wrapper
+  .tooltip-employee-text-line {
+  margin: 10px 0 0 0;
+  width: 100%;
+}
+.ms-tooltip-text p {
+  margin: 0;
+  padding: 4px;
+}

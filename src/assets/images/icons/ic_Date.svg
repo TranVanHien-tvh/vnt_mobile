@@ -1,0 +1,12 @@
+<svg id="ic_Date" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_31582" data-name="Group 31582" transform="translate(-2003.998 213.5)">
+    <path id="Path_33924" data-name="Path 33924" d="M18.546,21H5.454A2.522,2.522,0,0,1,3,18.421V6.579A2.522,2.522,0,0,1,5.454,4H18.546A2.522,2.522,0,0,1,21,6.579V18.421A2.522,2.522,0,0,1,18.546,21ZM5.454,6A.535.535,0,0,0,5,6.579V18.421A.535.535,0,0,0,5.454,19H18.546A.535.535,0,0,0,19,18.421V6.579A.535.535,0,0,0,18.546,6Z" transform="translate(2003.998 -213.5)" fill="#14aa8a"/>
+    <path id="Path_33925" data-name="Path 33925" d="M20,9.955H4a1,1,0,0,1,0-2H20a1,1,0,0,1,0,2Z" transform="translate(2003.998 -213.5)" fill="#14aa8a"/>
+    <path id="Path_33926" data-name="Path 33926" d="M7,12a1,1,0,1,1,1,1A1,1,0,0,1,7,12Z" transform="translate(2003.998 -213.5)" fill="#14aa8a"/>
+    <path id="Path_33927" data-name="Path 33927" d="M7,16a1,1,0,1,1,1,1A1,1,0,0,1,7,16Z" transform="translate(2003.998 -213.5)" fill="#14aa8a"/>
+    <path id="Path_33928" data-name="Path 33928" d="M12,11a1,1,0,1,0,1,1A1,1,0,0,0,12,11Z" transform="translate(2003.998 -213.5)" fill="#14aa8a"/>
+    <path id="Path_33930" data-name="Path 33930" d="M8,6A1,1,0,0,1,7,5V3A1,1,0,0,1,9,3V5A1,1,0,0,1,8,6Z" transform="translate(2003.998 -213.5)" fill="#14aa8a"/>
+    <path id="Path_33931" data-name="Path 33931" d="M16,6a1,1,0,0,1-1-1V3a1,1,0,0,1,2,0V5A1,1,0,0,1,16,6Z" transform="translate(2003.998 -213.5)" fill="#14aa8a"/>
+  </g>
+  <rect id="Rectangle_16525" data-name="Rectangle 16525" width="24" height="24" fill="none" opacity="0"/>
+</svg>

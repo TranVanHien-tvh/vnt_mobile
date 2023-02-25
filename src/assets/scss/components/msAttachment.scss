@@ -1,0 +1,149 @@
+@import "@/assets/scss/_variables.scss";
+.attachment-custom{
+  .icon20.attach{
+    background: url($ms-image-ic_attachment) no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 4px;
+  }
+
+  .view-container{
+    align-items: center;
+    line-height: 20px;
+    .label{
+      color: #000;
+    }
+  }
+}
+
+
+.ms-attachment {
+  position: relative;
+  display: inline-block;
+}
+.view-container {
+  line-height: 34px;
+  .icon24 {
+    margin: 5px 10px 0 0;
+  }
+
+  .label {
+    color: #182D4B;
+    height: 20px;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .count {
+    color: $grey;
+    margin-left: 4px;
+  }
+}
+
+.attachment-custom{
+  height: 36px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 5px 16px;
+    .icon20{
+      height: 20px;
+      width: 20px;
+      background: url("~@/assets/images/icons/attachment.svg") no-repeat;
+    }
+    .view-container {
+      line-height: 22px;
+    }
+ 
+}
+
+.list-files {
+  position: absolute;
+  top: 40px;
+  padding: 0 16px;
+  // vvkiet - 27.04.2021: Tăng z-index để nằm trên ô input
+  z-index: 99999;
+  white-space: nowrap;
+  min-width: 200px;
+
+  &::before {
+    content: "";
+    display: block;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    background-color: white;
+  }
+
+  &.left {
+    left: 0;
+
+    &::before {
+      top: -5px;
+      left: 10px;
+    }
+  }
+  &.right {
+    right: 0;
+
+    &::before {
+      top: -5px;
+      right: 23px;
+    }
+  }
+  &.top{
+    //ĐVThi 27/04/2021: Tính toán lại vị trí của danh sách trong trường hợp hiển thị top
+    bottom: 40px !important;
+    top: auto !important;
+    &::before{
+      top: 70px;
+      right: 225px;
+    }
+  }
+}
+.files {
+  padding: 6px 0;
+}
+.file {  
+  line-height: 24px;
+}
+.link {
+  color: #2c8eff;
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.size {
+  color: $grey-light;
+  margin-left: 10px;
+}
+.remove {
+  width: 24px;
+  height: 20px;
+  margin: 3px 0 0 10px;
+  &::before {
+    content: "";
+    background: transparent url($ms-image-sprites) no-repeat 0 -120px;
+    display: block;
+    height: 16px;
+    width: 16px;
+  }
+}
+
+.upload {
+  border-top: 1px solid $secondary;
+  line-height: 38px;
+  .icon24 {
+    margin: 7px 0 0 0;
+  }
+  .text {
+    color: $primary;
+  }
+}
+
+.disabled {
+  top: -39px!important;
+}

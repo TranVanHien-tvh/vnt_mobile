@@ -1,0 +1,1556 @@
+@import "@/assets/scss/_variables.scss";
+
+.icon24 {
+    height: 24px;
+    width: 24px;
+    top: 2px;
+    // right: 10px;
+    position: relative;
+
+    &:before {
+        content: "";
+        position: absolute;
+        background: transparent url($ms-image-sprites) no-repeat;
+        height: 24px;
+        width: 24px;
+        // top: 9px;
+        // top: 2px;
+        // left: -9px;
+    }
+
+
+    &.w-16 {
+        height: 16px;
+        width: 16px;
+    }
+
+    &.w-16:before {
+        height: 16px;
+        width: 16px;
+    }
+
+    &.mi-top::before{
+        width: 0;
+        height: 0;
+    }
+
+    &.add-increment::before {
+        background-position: 0 -48px;
+    }
+
+    &.add:before {
+        background-position: -216px -96px;
+    }
+
+    &.add-white:before {
+        background-position: -192px -96px;
+    }
+
+    &.add-primary:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -96px -48px;
+    }
+
+    &.add-primary_v2:before {
+        background: url($ms-image-ic_add_primary_v2) no-repeat;
+    }
+
+    &.icon-minus:before {
+        background: url($ms-image-ic_minus) no-repeat;
+    }
+
+    &.user-plus_primary:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -352px -140px;
+        width: 16px;
+        height: 24px;
+    }
+
+    &.user-plus_white:before {
+        background: url($ms-image-ic_user_plus_white) no-repeat;
+    }
+
+    &.import-primary:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -320px -139px;
+        width: 16px;
+        height: 24px;
+    }
+
+    &.check-green:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -112px -144px;
+        width: 16px;
+        height: 16px;
+    }
+
+    &.check-disabled:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -96px -144px;
+        width: 16px;
+        height: 16px;
+    }
+
+    &.reward:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -192px -72px;
+    }
+
+    &.remove-line:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -168px -96px;
+    }
+
+    &.approval:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: 0px -120px;
+    }
+
+    &.cancel-outline:before {
+        background: transparent url($ms-image-ic_cancel) no-repeat;
+        margin-top: 3px;
+    }
+
+    &.response:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -72px -120px;
+    }
+
+    &.tab-list:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -264px -48px;
+    }
+
+    &.tab-list-disabled:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -288px ​-48px;
+    }
+
+    &.tab-list-detail:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -312px ​-48px;
+    }
+
+    &.tab-list-detail-disabled:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -336px -48px;
+    }
+
+    &.release:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -604px -140px;
+    }
+
+    &.sent:before {
+        background: transparent url($ms-image-sent) no-repeat;
+        background-position: 0px 0px;
+    }
+
+    &.chevron-down:before {
+        background-position: -144px -48px;
+    }
+
+    &.chevron-down-white:before {
+        background-position: -242px -168px;
+    }
+
+    &.upload-gray:before {
+        background-position: -289px 0px;
+    }
+
+    &.upload-white:before {
+        background-position: -95px -192px;
+    }
+
+    &.filter:before {
+        background-position: -96px -48px;
+    }
+
+    &.filter-active:before {
+        background: url($ms-image-ic_filter_active) no-repeat;
+    }
+
+    &.register-action:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -508px -141px;
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    &.filter-header-20:before {
+        background: url($ms-image-ic_filter) no-repeat;
+        height: 24px;
+        width: 24px;
+        background-position: 6px 4px;
+      }
+      
+    &.import-excel::before {
+        background-position: -96px -72px;
+    }
+
+    &.print:before {
+        background-position: -24px -168px;
+    }
+    // &.sort-header:before {
+    //   background-position: -97px -48px;
+    // }
+    &.search:before {
+        background: transparent url($ms-image-ic_search_default) no-repeat;
+    }
+
+    &.setting:before {
+        background-position: -264px -168px;
+    }
+
+    &.handle:before {
+        background-position: -168px -256px;
+    }
+
+    &.difference-audit:before {
+        background-position: 0 -216px;
+    }
+
+    &.setting-white:before {
+        background-position: -168px -24px;
+    }
+
+    &.setting-black:before {
+        background-position: -264px -168px;
+    }
+
+    &.export-excel:before {
+        background: url($ms-image-ic_export_excel) no-repeat;
+        top: 4px;
+    }
+
+    &.home:before {
+        background-position: -48px -192px;
+    }
+
+    &.more:before {
+        background-position: -168px -48px;
+    }
+
+    &.tree:before {
+        background-position: -311px -168px;
+    }
+
+    &.tree-action:before {
+        background-position: -23px -304px;
+        width: 23px !important;
+    }
+
+    &.list-detail:before {
+        background-position: -336px -168px;
+        width: 23px !important;
+    }
+
+    &.list-detail-action:before {
+        background-position: -48px -304px;
+    }
+
+    &.error:before {
+        background-position: -312px -24px;
+        transform: rotate(180deg);
+    }
+
+    &.error-login::before{
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -80px -208px; 
+    }
+
+    &.refresh:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -120px -48px;
+    }
+
+    &.re-use:before {
+        background-position: -216px -72px;
+    }
+
+    &.install-component:before {
+        background-position: -432px 0px;
+    }
+
+    &.remove-component:before {
+        background-position: -408px 1px;
+    }
+
+    &.lost-component:before {
+        background-position: -456px 0px;
+    }
+
+    &.edit:before {
+        background-position: 0px -72px;
+    }
+
+    &.doWork:before {
+        background-position: -216px -72px;
+    }
+
+    &.edit-white:before {
+        background-position: -120px -192px;
+    }
+
+    &.duplicate:before {
+        background-position: -264px -96px;
+    }
+
+    &.delete:before {
+        background-position: -336px -72px;
+    }
+
+    &.deleteX:before {
+        background-position: -240px -24px;
+    }
+
+    &.done:before {
+        background-position: -0 -328px;
+    }
+
+    &.lost:before {
+        background-position: -144px -72px;
+    }
+
+    &.decrement:before {
+        background-position: -144px -72px;
+    }
+
+    &.broken:before {
+        background-position: -168px -72px;
+    }
+
+    &.denyBroken:before {
+        background-position: -336px -192px;
+    }
+
+    &.repair:before {
+        background-position: -191px -72px;
+    }
+
+    &.scheduleRepairMaintain:before {
+        background-position: -288px -192px;
+    }
+
+    &.liquidation:before {
+        background-position: -264px -72px;
+    }
+
+    &.request-liquidation:before {
+        background-position: -240px -72px;
+    }
+
+    &.scan:before {
+        background-position: -288px -72px;
+    }
+
+    &.document:before {
+        background-position: -312px -72px;
+    }
+
+    &.clear:before {
+        background-position: -266px -24px;
+    }
+
+    &.confirm:before {
+        background-position: -216px -24px;
+    }
+
+    &.confirm-detail:before {
+        background-position: -192px -24px;
+    }
+
+    &.eye-unview:before {
+        background-position: 0 -168px;
+    }
+
+    &.back:before {
+        background-position: -336px 0;
+    }
+
+    &.print:before {
+        background-position: -24px -168px;
+    }
+
+    &.org-icon::before {
+        background-position: -240px -96px;
+    }
+
+    &.sort:before {
+        background-position: -120px -168px;
+    }
+
+    &.sort-20::before {
+        background-position: -126px -116px;
+        width: 20px;
+        height: 20px;
+        top: 2px;
+    }
+
+    &.sortasc:before {
+        background-position: -70px -168px;
+    }
+
+    &.sortdesc:before {
+        background-position: -95px -168px;
+    }
+
+    &.sortasc-20:before {
+        background-position: -141px -117px;
+        width: 20px;
+        top: 2px;
+    }
+
+    &.sortdesc-20:before {
+        background-position: -157px -117px;
+        width: 20px;
+        top: 2px;
+    }
+
+    &.move:before {
+        background-position: -48px -168px;
+    }
+
+    &.like:before {
+        background-position: -192px -215px;
+    }
+
+    &.not-like:before {
+        background-position: -170px -215px;
+    }
+
+    &.sort-report:before {
+        background-position: -215px -215px;
+    }
+
+    &.allocation:before {
+        background-position: -47px -73px;
+    }
+
+    &.reduce:before {
+        background-position: -71px -73px;
+    }
+
+    &.transfer:before {
+        background-position: -26px -73px;
+    }
+
+    &.maintain:before {
+        background-position: -215px -192px;
+    }
+
+    &.audit:before {
+        background-position: -240px -280px;
+    }
+
+    &.schedule:before {
+        background-position: -288px -192px;
+    }
+
+    &.attach:before {
+        background-position: -141px -168px;
+    }
+
+    &.info:before {
+        background-position: -168px -72px;
+        transform: rotate(180deg);
+    }
+
+    &.infomation:before {
+        background-position: -168px -168px;
+    }
+
+    &.close::before {
+        background-position: -240px -24px;
+    }
+
+    &.close-red::before {
+        background-position: -265px -24px;
+    }
+
+    &.upload::before {
+        background-position: -216px -168px;
+    }
+
+    &.download::before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -72px -72px;
+    }
+    &.download-white::before{
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -448px -141px;
+        width: 16px;
+    }
+    &.ms-excel::before{
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -268px -71px;
+    }
+    &.ms-word::before{
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -288px -71px;
+    }
+    &.ms-pdf::before{
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -314px -71px;
+    }
+    &.download-file::before {
+        background-position: -289px 0px;
+    }
+
+    &.list::before {
+        background-position: -48px -167px;
+    }
+
+    &.list-action::before {
+        background-position: 0px -303px;
+    }
+
+    &.send-email::before {
+        background-position: -264px -192px;
+    }
+
+    &.cancel-asset::before {
+        background-position: -240px -192px;
+    }
+
+    &.calender::before {
+        background-position: -262px 0px;
+    }
+
+    &.calender-action::before {
+        background-position: -335px -303px;
+    }
+
+    &.calender-center::before {
+        background-position: -264px 0px;
+    }
+
+    &.filter-header::before {
+        background-position: -97px -48px;
+    }
+
+    &.filter-header.active::before {
+        background-position: -131px -48px;
+    }
+
+    &.change-asset-location::before {
+        background-position: -24px -254px;
+    }
+
+    &.edit-field:before {
+        background-position: 0px -72px;
+    }
+
+    &.copy-field:before {
+        background-position: -264px -96px;
+    }
+
+    &.save-field::before {
+        background-position: -336px -24px;
+    }
+
+    &.cancel-edit::before {
+        background-position: -336px -48px;
+    }
+
+    &.select-double::before {
+        background-position: -71px -255px;
+    }
+
+    &.open-list::before {
+        background-position: -96px -255px;
+    }
+
+    &.ultility::before {
+        background-position: -96px -256px;
+    }
+
+    &.upload-other::before {
+        background-position: 0px -192px;
+    }
+
+    &.synchronous::before {
+        background-position: -120px -256px;
+    }
+
+    &.maximum::before {
+        background-position: -192px -167px
+    }
+
+    &.block::before {
+        background-position: -25px -192px;
+    }
+
+    &.rocket::before {
+        background-position: -311px -256px;
+    }
+
+    &.ok::before {
+        background-position: -64px -120px;
+    }
+
+    &.ok.not-yet::before {
+        background-position: -80px -120px;
+    }
+
+    &.small-info::before {
+        background-position: -96px -120px;
+    }
+
+    &.money-bag::before {
+        background-position: 0px -280px;
+    }
+
+    &.group1::before {
+        background-position: -24px -280px;
+    }
+
+    &.group2::before {
+        background-position: -48px -280px;
+    }
+
+    &.group3::before {
+        background-position: -72px -280px;
+    }
+
+    &.group4::before {
+        background-position: -96px -280px;
+    }
+
+    &.group5::before {
+        background-position: -120px -280px;
+    }
+
+    &.permissions::before {
+        background-position: -96px -305px;
+    }
+
+    &.permissions2::before {
+        background-position: -120px -305px;
+    }
+
+    &.back-white:before {
+        background-position: -288px -280px;
+    }
+
+    &.mi-arrow-right--black::before {
+        background-position: -112px -119px;
+    }
+
+    &.mi-checkbox-active:before {
+        background-position: -192px -24px;
+    }
+
+    &.mi-16::before {
+        height: 16px;
+        width: 16px;
+    }
+
+    &.mi-16 {
+        width: 16px;
+        height: 16px;
+    }
+
+    &.mi-arrow-up--black::before {
+        background-position: -560px -359px;
+    }
+
+    &.group6:before {
+        background-position: -96px -280px;
+    }
+
+    &.group7:before {
+        background-position: -144px -280px;
+    }
+
+    &.group8:before {
+        background-position: -168px -280px;
+    }
+
+    &.group9:before {
+        background-position: -192px -280px;
+    }
+
+    &.group10:before {
+        background-position: -216px -280px;
+    }
+
+    &.import-excel::before {
+        background-position: -96px -72px;
+    }
+
+    &.import-white::before {
+        background-position: -335px -217px;
+    }
+
+    &.mi-18::before {
+        width: 18px;
+        height: 18px;
+    }
+
+    &.secret::before {
+        background-position: -96px -118px;
+    }
+
+    &.user::before {
+        background-position: -192px -328px;
+        width: 64px;
+        height: 64px;
+    }
+
+    &.close-white::before {
+        background-position: -264px -280px;
+    }
+
+    &.time-turn-back::before {
+        background-position: -143px -304px;
+    }
+
+    &.single-employee::before {
+        background-position: -168px -304px;
+    }
+
+    &.message::before {
+        background-position: -192px -304px;
+    }
+
+    &.found-asset::before {
+        background-position: -216px -304px;
+    }
+
+    &.edit-name:before {
+        background-position: -264px -303px;
+    }
+
+    &.more-rows:before {
+        background-position: -240px -304px;
+    }
+
+    &.brand:before {
+        background-position: -24px -216px;
+    }
+
+    &.update:before {
+        background-position: -240px -216px;
+    }
+
+    &.history:before {
+        background-position: -312px -281px;
+    }
+
+    &.delete-gray:before {
+        background-image: url($ms-image-ic_delete_gray);
+        background-position: center;
+    }
+
+    &.add-blue:before {
+        background-image: url($ms-image-ic_add_blue);
+        background-position: center;
+    }
+
+    &.send-motive:before {
+        background: url($ms-image-ic_send_motive) no-repeat;
+        margin-left: 3px;
+        margin-top: 1px;
+    }
+
+    &.add-new-movement:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -416px -144px;
+        width: 16px;
+        height: 16px;
+        margin: 4px;
+    }
+
+    &.add-link-attachment::before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -287px -144px;
+        width: 16px;
+        height: 16px;
+        margin: 4px;
+    }
+
+    &.add-attachment::before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -272px -144px;
+        width: 16px;
+        height: 16px;
+        margin: 4px;
+    }
+
+    &.add-profile:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -320px -142px;
+        width: 16px;
+    }
+
+    &.approval:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: 0px -120px;
+    }
+
+    &.response:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -72px -120px;
+    }
+
+    &.tab-list:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -264px -48px;
+    }
+
+    &.tab-list-disabled:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -288px ​-48px;
+    }
+
+    &.tab-list-detail:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -312px ​-48px;
+    }
+
+    &.tab-list-detail-disabled:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -336px -48px;
+    }
+
+    &.joined:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -120px -120px;
+    }
+    
+    &.cancel-join:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -168px -96px;
+    }
+
+    &.motive:before{
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -96px -120px;
+    }
+
+    &.sent-white:before {
+        background: transparent url($ms-image-sent-white) no-repeat;
+        background-position: center;
+    }
+
+    &.paper_plane:before {
+        background: transparent url($ms-image-ic_paper_plane) no-repeat;
+        background-position: center;
+    }
+
+    &.replay-blue:before {
+        background: transparent url($ms-image-ic_replay_blue) no-repeat;
+        background-position: center;
+    }
+
+    &.check-gray:before {
+        background: transparent url($ms-image-ic_check_gray) no-repeat;
+        background-position: center;
+    }
+
+    &.check-blue:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -48px -208px;
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    &.trash:before {
+        background: transparent url($ms-image-ic_trash) no-repeat;
+        background-position: center;
+    }
+
+    &.chevron-up-blue:before {
+        background: transparent url($ms-image-ic_chevron-up-blue) no-repeat;
+        background-position: center;
+    }
+
+    &.chevron-down-blue:before {
+        background: transparent url($ms-image-ic_chevron-down-blue) no-repeat;
+        background-position: center;
+    }
+
+    &.send-black:before {
+        background: transparent url($ms-image-ic_send-black) no-repeat;
+        background-position: center;
+    }
+
+    &.view-white:before {
+        background: transparent url($ms-image-ic_view-white) no-repeat;
+        background-position: center;
+    }
+
+    &.view-primary:before {
+        background: transparent url($ms-image-ic_view_primary) no-repeat;
+        background-position: center;
+    }
+
+    &.export-black:before {
+        background: transparent url($ms-image-ic_export-black) no-repeat;
+        background-position: center;
+    }
+
+    &.export-white:before {
+        background: transparent url($ms-image-ic_export-white) no-repeat;
+        background-position: center;
+    }
+    &.toast-success:before {
+        background: transparent url($ms-image-sprites) no-repeat;
+        background-position: -240px -48px;
+    }
+    &.toast-success-green:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -24px -120px;
+    }
+    &.circle-check-blue:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -64px -144px;
+    }
+    &.circle-deny-red:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -170px -98px;
+    }
+
+
+    &.change-password:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: 1px -205px;
+    }
+
+    &.setting:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -15px -205px;
+    }
+
+    &.logout:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -31px -205px;
+    }
+
+    &.icon-suggest:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -218px -94px;
+    }
+
+    &.ic-link:before {
+        background: transparent url($ms-image-ic_link) no-repeat;
+        background-position: center;
+    }
+
+    &.ic-info-24:before {
+        background: transparent url($ms-image-ic_info_24) no-repeat;
+        background-position: center;
+    }
+
+    &.ic-download-blue:before {
+        background: transparent url($ms-image-ic_download_blue) no-repeat;
+        background-position: center;
+    }
+
+    &.double-check:before {
+        background: url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -216px -72px;
+    }
+
+    &.ic-bold:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -96px -184px;
+    }
+
+    &.ic-italic:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -120px -184px;
+    }
+
+    &.ic-underline:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -144px -184px;
+    }
+
+    &.ic-uppercase:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -168px -184px;
+    }
+
+    &.ic-lowercase:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -192px -184px;
+    }
+
+    &.ic-titlecase:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -216px -184px;
+    }
+
+    &.ic-align-left:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -240px -184px;
+    }
+
+    &.ic-align-center:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -264px -184px;
+    }
+
+    &.ic-align-right:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -288px -184px;
+    }
+    
+    &.ic-bold.active:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -312px -184px;
+    }
+
+    &.ic-italic.active:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -336px -184px;
+    }
+
+    &.ic-underline.active:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -360px -184px;
+    }
+
+    &.ic-uppercase.active:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -384px -184px;
+    }
+
+    &.ic-lowercase.active:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -408px -184px;
+    }
+
+    &.ic-titlecase.active:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -432px -184px;
+    }
+
+    &.ic-align-left.active:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -456px -184px;
+    }
+
+    &.ic-align-center.active:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -480px -184px;
+    }
+
+    &.ic-align-right.active:before {
+        background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+        background-position: -504px -184px;
+    }
+    &.add-user:before{
+        background: transparent url($ms-image-ic_add_user) no-repeat;
+        background-position: 8px -3px;
+    }
+    &.star:before{
+        background: transparent url($ms-image-ic_star) no-repeat;
+        background-position: 0px 0px;
+    }
+    &.earth:before{
+        background: transparent url($ms-image-ic_earth) no-repeat;
+        background-position: 0px 0px;
+    }
+    &.icon-v:before{
+        background: transparent url($ms-icon-v) no-repeat;
+        background-position: 0px 0px;
+    }
+    &.ic_add_folder:before{
+        background: transparent url($ms-image-ic_add_folder) no-repeat;
+        background-position: 0px 0px;
+    }
+    &.ic_logout_white:before{
+        background: transparent url($ms-image-ic_logout_white) no-repeat;
+        background-position: 0px 0px;
+        left: 0;
+    }
+    &.ic_upload_folder:before{
+        background: transparent url($ms-image-ic_upload_folder) no-repeat;
+        background-position: 0px 0px;
+    }
+    &.ic_upload_file:before{
+        background: transparent url($ms-image-ic_upload_file) no-repeat;
+        background-position: 0px 0px;
+    }
+    &.ic_document:before{
+        background: transparent url($ms-image-ic_document) no-repeat;
+        background-position: 0px 0px;
+    }
+    &.ic_excel:before{
+        background: transparent url($ms-image-ic_excel) no-repeat;
+        background-position: 0px 0px;
+    }
+    &.icon-paper:before{
+        background: transparent url($ms-icon-paper) no-repeat;
+        background-position: 0px 0px;
+        width: 36px;
+        height: 36px;
+    }
+    &.icon-chat:before{
+        background: transparent url($ms-icon-chat) no-repeat;
+        background-position: 0px 0px;
+        width: 36px;
+        height: 36px;
+    }
+    &.icon-bell:before{
+        background: transparent url($ms-icon-bell) no-repeat;
+        background-position: 0px 0px;
+        width: 36px;
+        height: 36px;
+    }
+    &.icon-act:before{
+        background: transparent url($ms-icon-act) no-repeat;
+        background-position: 0px 0px;
+        width: 36px;
+        height: 36px;
+    }
+
+        &.show-password:before {
+        background: url("~@/assets/images/icons/vnt/eye open.svg") no-repeat;
+        width: 24px;
+        height: 24px;
+        // top: -2px;
+    }
+
+    &.disabled-password:before {
+        background: url("~@/assets/images/icons/vnt/eye close.svg") no-repeat;
+        width: 24px;
+        height: 24px;
+        // top: -2px;
+    }
+
+    &.user:before {
+        background: transparent url($ms-image-ic_user_default) no-repeat center;
+        width: 24px;
+        height: 24px;
+    }
+
+    &.email:before {
+        background: transparent url($ms-image-ic_email_default) no-repeat center;
+        width: 24px;
+        height: 24px;
+    }
+
+    &.male:before {
+        background: transparent url($ms-image-ic_male) no-repeat center;
+        width: 24px;
+        height: 24px;
+    }
+
+    &.female:before {
+        background: transparent url($ms-image-ic_female) no-repeat center;
+        width: 24px;
+        height: 24px;
+    }
+
+    &.ic_email:before{
+        background: transparent url($ms-image-ic_email) no-repeat;
+        width: 24px;
+        height: 24px;
+      }
+    &.ic_web:before{
+        background: transparent url($ms-image-ic_web) no-repeat;
+        width: 24px;
+        height: 24px;
+      }
+    &.ic_contact:before{
+        background: transparent url($ms-image-ic_contact) no-repeat;
+        width: 24px;
+        height: 24px;
+      }
+      &.icon-group-time:before{
+        background: transparent url($ms-icon-group-time) no-repeat;
+        background-size: contain;
+    }
+}
+
+.icon-control{
+  position: relative;
+  &.text {
+    &:before {
+      content: "";
+      position: absolute;
+      background: transparent url($ms-image-ic_Text) no-repeat;
+      height: 18px;
+      width: 52px;
+    }
+  }
+  &.number {
+    &:before {
+      content: "";
+      position: absolute;
+      background: transparent url($ms-image-ic_Number) no-repeat;
+      height: 18px;
+      width: 52px;
+    }
+  }
+  &.decimal {
+    &:before {
+      content: "";
+      position: absolute;
+      background: transparent url($ms-image-ic_Decimal) no-repeat;
+      height: 18px;
+      width: 52px;
+    }
+  }
+  &.text-area {
+    &:before {
+      content: "";
+      position: absolute;
+      background: transparent url($ms-image-ic_Textarea) no-repeat;
+      height: 30px;
+      width: 52px;
+    }
+  }
+  &.checkbox {
+    &:before {
+      content: "";
+      position: absolute;
+      background: transparent url($ms-image-ic_Checkbox) no-repeat;
+      height: 24px;
+      width: 24px;
+    }
+  }
+  &.combo {
+    &:before {
+      content: "";
+      position: absolute;
+      background: transparent url($ms-image-ic_Combo) no-repeat;
+      height: 18px;
+      width: 52px;
+    }
+  }
+  &.date {
+    &:before {
+      content: "";
+      position: absolute;
+      background: transparent url($ms-image-ic_Date) no-repeat;
+      height: 24px;
+      width: 24px;
+    }
+  }
+}
+
+.icon16 {
+  width: 16px;
+  height: 16px;
+  &.icon-note {
+    background: transparent url($ms-image-ic_icon-note) no-repeat;
+    margin-left: 3px;
+    cursor: pointer;
+  }
+  &.sent-white:before {
+    background: transparent url($ms-image-sent-white) no-repeat;
+    background-position: 0px 0px;
+  }
+  &.refresh:before {
+    background: transparent url($ms-image-refresh) no-repeat;
+    background-position: 0px 0px;
+  }
+  &.check-gray:before {
+    background: transparent url($ms-image-CeGo_Sprites) no-repeat;
+    background-position: -48px -208px;
+  }
+}
+
+.icon48 {
+    width: 48px;
+    height: 48px;
+
+    &.ic-notify-0 {
+        background: transparent url($ms-ic-notify1) no-repeat;
+    background-size: contain;
+        
+    }
+    &.ic-notify-1 {
+        background: transparent url($ms-ic-notify2) no-repeat;
+    background-size: contain;
+
+    }
+    &.ic-notify-2 {
+        background: transparent url($ms-ic-notify3) no-repeat;
+    background-size: contain;
+
+    }
+    &.ic-notify-3 {
+        background: transparent url($ms-ic-notify4) no-repeat;
+    background-size: contain;
+
+    }
+    &.ic-notify-4 {
+        background: transparent url($ms-ic-notify5) no-repeat;
+    background-size: contain;
+
+    }
+}
+
+.icon46{
+    width: 46px;
+    height: 46px;
+    &.ic-folder-circle{
+        background: transparent url($ms-icon-folder-save) no-repeat;
+        background-size: contain;
+    }
+    &.ic-edit-circle{
+        background: transparent url($ms-icon-edit-circle) no-repeat;
+        background-size: contain;
+    }
+}
+
+.view:before{
+    background: transparent url($ms-image-ic_view) no-repeat;
+    background-position: 0px 0px;
+    background-size: 24px;
+}
+
+.report-mask{
+    background: transparent url($ms-report-mask) no-repeat;
+}
+
+.line-break {
+    background-image: url($ms-line-break);
+    background-repeat: no-repeat;
+    width: 2px;
+    margin: 0 25px;
+    height: 32px;
+    background-position: center;
+}
+
+.icon-line{
+    background-image: url($ms-icon-line);
+    background-repeat: no-repeat;
+    width: 2px;
+    height: 48px;
+    background-position: center;
+    margin: 7px 0px;
+}
+
+.icon-line-time{
+    background-image: url($ms-icon-line);
+    background-repeat: no-repeat;
+    width: 2px;
+    height: 48px;
+    background-position: center;
+    position: absolute;
+    top: 83px;
+}
+
+.icon36 {
+    width: 36px;
+    height: 36px;
+    &.icon-video-call{
+        background: transparent url($ms-icon-video-call) no-repeat;
+        background-size: contain;
+    }
+    &.icon-web{
+        background: transparent url($ms-icon-web) no-repeat;
+        background-size: contain;
+    }
+    &.icon-park-mail{
+        background: transparent url($ms-icon-park-mail) no-repeat;
+        background-size: contain;
+    }
+}
+
+.icon56 {
+    width: 56px;
+    height: 56px;
+    &.icon-target{
+        background: transparent url($ms-icon-target) no-repeat;
+        background-size: contain;
+    }
+    &.icon-refer{
+        background: transparent url($ms-icon-refer) no-repeat;
+        background-size: contain;
+    }
+    &.icon-uncare-act{
+        background: transparent url($ms-icon-uncare-act) no-repeat;
+        background-size: contain;
+    }
+    &.icon-bi-heart{
+        background: transparent url($ms-icon-bi-heart) no-repeat;
+        background-size: contain;
+    }
+}
+
+.icon32 {
+    width: 32px;
+    height: 32px;
+    &.icon-v:before{
+        background: transparent url($ms-icon-v) no-repeat;
+        background-size: contain;
+    }
+    &.icon-place{
+        background: transparent url($ms-icon-place) no-repeat;
+        background-size: contain;
+    }
+    &.icon-calendar{
+        background: transparent url($ms-icon-calendar) no-repeat;
+        background-size: contain;
+    }
+}
+
+.icon28 {
+    width: 28px;
+    height: 28px;
+    &.icon-vector{
+        background: transparent url($ms-icon-vector) no-repeat;
+        background-size: contain;
+    }
+}
+
+.icon18 {
+    width: 18px;
+    height: 18px;
+    &.icon-vector{
+        background: transparent url($ms-icon-vector) no-repeat;
+        background-size: contain;
+    }
+}
+
+.icon15 {
+    width: 15px;
+    height: 15px;
+    &.ic_close_blue{
+        background: transparent url($ms-image-ic_close) no-repeat;
+        background-size: contain;
+    }
+}
+
+.icon_three_dot{
+    width: 30px;
+    height: 6px;
+    background: transparent url($ms-icon-three-dot) no-repeat;
+}
+
+.icon90{
+    width: 90px;
+    height: 90px;
+    &.icon-place{
+        background: transparent url($ms-icon-place) no-repeat;
+        background-size: contain;
+    }
+    &.icon-calendar{
+        background: transparent url($ms-icon-calendar) no-repeat;
+        background-size: contain;
+    }
+}
+
+.icon-calendar-star{
+    width: 24px;
+    height: 24px;
+    background: transparent url($ms-icon-calendar-star) no-repeat;
+    background-size: contain;
+}
+
+.icon-calendar-pencil{
+    width: 24px;
+    height: 24px;
+    background: transparent url($ms-icon-calendar-pencil) no-repeat;
+    background-size: contain;
+}
+
+.icon16{
+    width: 16px;
+    height: 16px;
+}
+
+.icon20{
+    width: 20px;
+    height: 20px;
+}
+
+.icon26 {
+    width: 26px;
+    height: 26px;
+}
+
+.icon40{
+    width: 40px;
+    height: 40px;
+}
+
+.icon35{
+    width: 35px;
+    height: 35px;
+}
+
+
+.add-user{
+    background: transparent url($ms-image-ic_add_user) no-repeat;
+    background-position: 0px 0px;
+    background-size: contain;
+}
+.star{
+    background: transparent url($ms-image-ic_star) no-repeat;
+    background-position: 0px 0px;
+    background-size: contain;
+}
+.ic_logout{
+    background: transparent url($ms-icon-log-out) no-repeat;
+    background-position: 0px 0px;
+    background-size: contain;
+}
+
+.add-user{
+    background: transparent url($ms-image-ic_add_user) no-repeat;
+    background-position: 0px 0px;
+    background-size: contain;
+}
+.star{
+    background: transparent url($ms-image-ic_star) no-repeat;
+    background-position: 0px 0px;
+    background-size: contain;
+}
+
+.icon-vector{
+    background: transparent url($ms-icon-vector) no-repeat;
+    background-size: contain;
+}
+
+.icon-heart{
+    background: transparent url($ms-icon-heart) no-repeat;
+    background-size: contain;
+}
+.icon-sport{
+    background: transparent url($ms-icon-sport-red) no-repeat;
+    background-size: contain;
+}
+.icon-study{
+    background: transparent url($ms-icon-study-red) no-repeat;
+    background-size: contain;
+}
+.icon-puzzle{
+    background: transparent url($ms-icon-puzzle-red) no-repeat;
+    background-size: contain;
+}
+
+.icon-two-human{
+    background: transparent url($ms-icon-two-human) no-repeat;
+    background-size: contain;
+}
+.icon-history{
+    background: transparent url($ms-icon-history) no-repeat;
+    background-size: contain;
+}
+.icon-fluent-star{
+    width: 25px;
+    height: 25px;
+    background: transparent url($ms-icon-fluent-star) no-repeat;
+    background-size: contain;
+}
+
+
+.search:before {
+    background: transparent url($ms-image-ic_search_default) no-repeat;
+}
+
+// .attach-file{
+//   border-radius: 4px;
+//   border:1px solid #DDDDDD;
+//   padding: 6px 14px;
+//   min-width: 140px;
+// }

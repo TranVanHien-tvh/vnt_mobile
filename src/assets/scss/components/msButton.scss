@@ -1,0 +1,29 @@
+button.btn {
+  padding: 0;
+  outline: none;
+}
+
+button.text {
+  font-weight: bold;
+}
+.btn .text {
+  // font-family: GoogleSans !important;
+  font-family: Lato !important;
+
+}
+
+::v-deep.split-icon.active {
+  background-color: #2979ff;
+  border-radius: 9px;
+  overflow: hidden;
+  height: 100%;
+}
+.white ::v-deep.split-icon.active {
+  background-color: #e0e0e0;
+  border-radius: 9px;
+  overflow: hidden;
+}
+.btn-dropdown ::v-deep.split-icon.active {
+  background-color: #fff;
+  overflow: hidden;
+}

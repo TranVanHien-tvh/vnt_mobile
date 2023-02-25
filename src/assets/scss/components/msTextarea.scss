@@ -1,0 +1,21 @@
+@import "@/assets/scss/_variables.scss";
+
+.ms-textarea {
+  background: $white;
+  align-items: center;
+
+  .ms-textarea-item {
+    border: none;
+    padding: 6px 12px;
+    resize: none;
+    background: transparent;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.error-icon{
+  margin: 5px 6px 0 0;
+}

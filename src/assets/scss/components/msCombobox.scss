@@ -1,0 +1,119 @@
+@import "@/assets/scss/_variables.scss";
+.ms-combobox {
+  width: 100%;
+  background-color: transparent;
+
+  .hide{
+    display: none;
+  }
+
+  .border {
+    background: $white;
+  }
+  .border:not(.error):focus-within{
+    .quickSearch{
+      border-left: 1px solid $primary;
+    }
+  }
+  .combo-title{
+    padding-bottom: 8px;
+  }
+
+  //   &:hover {
+  //     border-color: $input-hover-border-color;
+  //   }
+  //   &:disabled {
+  //     border-color: $input-disabled-border-color;
+  //     pointer-events: none;
+  //   }
+
+  //   &:not(.error):focus-within {
+  //     outline: $input-outline;
+  //   }
+  //   &.error {
+  //     border-color: $input-error-border-color;
+  //   }
+  // }
+  .vnt-popover {
+    border: 0;
+    width: 100%;
+    padding: 0;
+    .input {
+      margin-left: 12px;
+      border: 0;
+      width: calc(100% - 12px);
+      padding: 0;
+      height: 35px;
+      outline: none;
+    }
+  }  
+}
+
+.ms-combobox-item--highlight {
+  background: #e8f5f7;
+  color: $primary;
+}
+
+.icon-combo--dropdown {
+  border-radius: 0 4px 4px 0;
+  width: 34px;
+  height: 34px;
+  position: relative;
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 14px;
+    display: inline-block;
+    background: transparent url($ms-image-sprites) no-repeat -149px -54px;
+    top: 11px;
+    left: 10px;
+  }
+  &.multiple{
+    position: sticky;
+    top: 0px;
+  }
+}
+
+.left-icon {
+  position: relative;
+  top: 4px;
+  left: 4px;
+}
+
+.quickSearch {
+  min-height: 34px;
+  width: 34px;
+  position: relative;
+  border-left: 1px solid #ddd;
+  outline: none; 
+
+  &:hover {
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    background: transparent url($ms-image-sprites) no-repeat -168px -48px;
+    width: 24px;
+    height: 24px;
+    left: 5px;
+    top: 5px;
+  }
+
+  &:focus {
+    border: 1px solid #14aa8a;
+    border-radius: 2px;
+  }
+}
+.point-event-none{
+  pointer-events: none;
+}
+::v-deep.error-icon{
+  cursor: pointer;
+}
+

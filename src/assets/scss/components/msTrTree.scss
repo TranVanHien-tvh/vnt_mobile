@@ -1,0 +1,310 @@
+.ms-tr {
+    &:focus{
+        outline: none !important;
+    }
+    .ms-td {
+        // border-left: $ms-grid__border-left--size dotted $grey;
+        border-bottom: 1px solid #ddd;
+        height: $ms-grid__line-height;
+        background: #fff;
+        padding: 2px 10px; 
+        box-sizing: border-box;
+        cursor: pointer;
+        .content-cell {
+            line-height: 22px;
+            margin-left: 10px;
+        }
+        outline: none !important;
+        .text-overflow{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            // max-width: 100px;
+          }
+        //   .text-overflow:hover{
+        //     text-overflow: clip;
+        //     white-space: normal;
+        //     word-break: break-all;
+        //     padding: 10px 0px;
+        //   }
+        
+    }
+    &.row-editor {
+        .ms-td {
+            &:focus {
+                outline: none !important;
+            }
+            .ms-cell-editor {
+                width: 100%;
+                height: 100%;
+                ::v-deep .ms-editor-text {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: $input-border-radius;
+                    border: 1px solid #b0bac9;
+                    background: $white;
+                    align-items: center;
+                    display: flex;
+                    &.edit-disabled {
+                        background: $grey-light;
+                    }
+                }
+            }
+        }
+    }
+    .ms-td:first-child {
+        border-left: none;    
+    }
+    .multiple-cell {
+        position: sticky;
+        left: 0;
+        width: 53px !important;
+        max-width: 53px !important;
+        min-width: 53px !important;
+        border-left: $ms-grid__border-left--size dotted $grey;
+    }
+    &.row-selected {
+        background: $ms-grid-row-selected-bg;
+    
+        .multiple-cell {
+          background-color: $ms-grid-row-selected-bg;
+        }
+        .ms-td {
+            background: $ms-grid-row-selected-bg;
+        }
+      }
+    .widget-item {
+        position: sticky;
+        right: 0;
+        box-shadow: 0 0 0 1px transparent;
+        border-left: $ms-grid__border-left--size dotted $grey;
+    }
+    .image-not-chid{
+        height: 24px;
+        width: 24px;
+    }
+    .expand {
+        width: 24px;
+        height: 24px;
+        background: url($ms-arrow-expand) no-repeat;
+    }   
+    .collapse {
+        width: 24px;
+        height: 24px;
+        background: url($ms-arrow-collapse) no-repeat;
+    }
+    .checkbox-mutli{
+        padding-left: 6px !important;
+        padding-top: 2px !important;
+        box-sizing: border-box !important;
+    }
+}
+
+.text-right{
+    text-align: right !important;
+    margin-left: auto !important;
+}
+
+
+
+.ms-tr:hover {
+    .ms-td {
+        background: #fbe9e7;
+    }
+}
+
+.ms-tr.row-selected:hover {
+    background: $ms-grid-row-hover-and-selected-bg;
+    .ms-td {
+        background: $ms-grid-row-hover-and-selected-bg;
+    }
+    .multiple-cell {
+        background: $ms-grid-row-hover-and-selected-bg;
+    }
+    .row-actions{
+        background: $ms-grid-row-hover-and-selected-bg;
+    }
+}
+
+.action-hover{
+    background: #e8f5f7;
+}
+
+.ms-tr {
+    &.shimmer:hover {
+        .ms-td {
+            background: $white !important;
+        }
+    }
+}
+
+.serial {
+    width: 45px;
+    min-width: 45px;
+    max-width: 45px;
+    position: sticky;
+    left: 0;
+    border-right: $ms-grid__border-left--size dotted $grey;
+}
+
+.shimmer-size {
+    height: 45px;
+}
+
+.shimmer-cell {
+    width: 100%;
+    height: 16px;
+    background: linear-gradient( to right, $grey-light 0%, red 20%, $grey-light 25%);
+    animation: placeholderShimmer 2s linear infinite normal forwards;
+}
+.row-actions {
+    position: absolute;
+    height: 38px;
+    background: $ms-grid-row-hover-bg;
+    white-space: nowrap;
+    padding-right: 10px;
+    display: flex;  
+    .item {
+        border-radius: 50%;
+        border: 1px solid #e0e0e0;
+        background-color: #fff;
+        margin: auto;
+        margin-left: 4px;
+        width: 36px;
+        height: 36px;
+        cursor: pointer;
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+  
+    .icon24 {
+      margin: auto;
+    }
+
+    .item:not(:disabled):hover{
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        margin: auto;
+        margin-left: 4px;
+        overflow: hidden;
+        box-shadow: $box-box-shadow;
+        display: flex;
+      
+      }
+}
+
+@for $i from 1 through 15 {
+    $x: (90 - ($i * 5)) + '%';
+    $y: ($x + 5) + '%';
+    .shimmer-cell-#{$i} {
+        background: linear-gradient( to right, $grey-light 0%, $grey-smoke #{$x}, $grey-light #{$y}, $grey-light 100%, );
+    }
+}
+
+@keyframes placeholderShimmer {
+    0% {
+        background-position: -100vw 0;
+    }
+    100% {
+        background-position: 100vw 0;
+    }
+}
+
+.shimmer {
+    /* the shimmer magic */
+    background: -webkit-gradient(linear, left top, right top, from($grey-light), to($grey-light), color-stop(.5, $grey-smoke));
+    background: -moz-gradient(linear, left top, right top, from($grey-light), to($grey-light), color-stop(.5, $grey-smoke));
+    background: gradient(linear, left top, right top, from($grey-light), to($grey-light), color-stop(.5, $grey-smoke));
+    -webkit-background-size: 125px 100%;
+    -moz-background-size: 125px 100%;
+    background-size: 125px 100%;
+    // animation: shimmer 2s linear infinite normal forwards;
+    -webkit-animation-name: shimmer;
+    -moz-animation-name: shimmer;
+    -webkit-animation-name: shimmer;
+    animation-name: shimmer;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: $grey-light;
+    width: 100%;
+    height: 16px;
+}
+
+@-moz-keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: top right;
+    }
+}
+
+@-webkit-keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: top right;
+    }
+}
+
+@-o-keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: top right;
+    }
+}
+
+@-ms-keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: top right;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: top right;
+    }
+}
+@for $i from 1 through 10 {
+    $x: ($i - 1) * 30 + 10;
+    .level-#{$i} {
+        padding-left: #{$x}px !important;
+    }
+}
+
+.sticky-left-45 {
+    position: sticky;
+    left: 45px;
+    z-index: 1;
+    border-right: 1px dotted $grey;
+}
+
+.custom-tree .ms-tr .ms-td:first-child{
+    padding-left: 20px;
+}
+
+.custom-tree .ms-tr .ms-td{
+    height: 40px;
+}

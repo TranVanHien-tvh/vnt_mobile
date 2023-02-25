@@ -1,0 +1,90 @@
+@import "@/assets/scss/_variables.scss";
+/*override*/
+.toastr-container {
+  word-break: break-word !important;
+}
+
+/*override toast*/
+.v-toast {
+  padding: 8px 0;
+  z-index: 100000;
+}
+.v-toast__item {
+  border-radius: 2.5px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.16);
+  min-height: unset;
+  border: 1px solid transparent;
+  margin: 8px 0 0 0;
+
+  // &::after {
+  //   content: "";
+  //   background: transparent url($ms-image-sprites) no-repeat -240px -24px;
+  //   display: block;
+  //   height: 24px;
+  //   width: 24px;
+  //   margin: 0 8px 0 0;
+  // }
+
+  .v-toast__icon {
+    height: 100%;
+    width: 40px;
+    margin: 0;
+    position: relative;
+
+    &::before {
+      content: "";
+      background: transparent url($ms-image-sprites) no-repeat;
+      position: absolute;
+      height: 24px;
+      width: 24px;
+      top: 8px;
+      right: 8px;
+    }
+  }
+
+  .v-toast__text {
+    padding: 11px 12px;
+    color: #fff;
+  }
+
+  &.v-toast__item--success {
+    background-color: $toast-success-bg;
+    border-color: $toast-success-icon-bg;
+    .v-toast__icon {
+      background: $toast-success-icon-bg;
+      &::before {
+        background-position: -240px -48px;
+      }
+    }
+  }
+  &.v-toast__item--info {
+    background-color: $toast-info-bg;
+    border-color: $toast-info-icon-bg;
+    .v-toast__icon {
+      background: $toast-info-icon-bg;
+      &::before {
+        background-position: -264px -48px;
+      }
+    }
+  }
+  &.v-toast__item--warning {
+    background-color: $toast-warning-bg;
+    border-color: $toast-warning-icon-bg;
+    .v-toast__icon {
+      background: $toast-warning-icon-bg;
+      &::before {
+        background-position: -288px -48px;
+      }
+    }
+  }
+  &.v-toast__item--error {
+    background-color: $toast-error-bg;
+    border-color: $toast-error-icon-bg;
+    .v-toast__icon {
+      background: $toast-error-icon-bg;
+      &::before {
+        background-position: -312px -48px;
+      }
+    }
+  }
+}

@@ -1,0 +1,189 @@
+@use 'sass:math';
+@import "@/assets/scss/_variables.scss";
+
+.btn {
+  min-height: $button-height;
+  min-width: $button-width;
+  align-items: center;
+  border: none;
+  box-shadow: none;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  border-radius: $button-border-radius;
+  white-space: nowrap;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+
+  &.only-icon {
+    // min-width: math.div($button-width, 2);
+    min-width: $button-width/2;
+  }
+
+  .text {
+    display: inline-block;
+    white-space: nowrap;
+    padding: $button-text-padding;
+    // padding-right: 12px;
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  .button-line {
+    margin-bottom: -2px;
+    display: none;
+    width: 1px;
+    height: 13px;
+    background-color: #fff;
+  }
+
+  .icon {
+    display: inline-block;
+    margin: $button-icon-margin;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    outline: $button-outline;
+  }
+  &:disabled {
+    opacity: $button-disable-opacity;
+    cursor: unset;
+  }
+  &.primary {
+    color: $button-primary-color;
+    background: $button-primary-bg;
+  }
+  &.primary-outline {
+    border: $button-primary-outline-border;
+    color: $button-primary-outline-color;
+    background: $button-primary-outline-bg;
+  }
+  &.secondary {
+    border: $button-secondary-border;
+    color: $button-secondary-color;
+    background: $button-secondary-bg;
+  }
+  &.secondary-outline {
+    border: $button-secondary-outline-border !important;
+    color: $button-secondary-outline-color;
+    background: $button-secondary-outline-bg;
+  }
+  &.secondary-outline-red {
+    border: $button-secondary-outline-red-border !important;
+    color: $button-secondary-outline-red-color;
+    background: $button-secondary-outline-red-bg;
+  }
+
+  &.secondary-outline .button-line {
+    background: #aaa;
+  }
+  &.secondary-outline-red .button-line {
+    background: #aaa;
+  }
+
+  &.danger {
+    color: $button-danger-color;
+    background: $button-danger-bg;
+  }
+  &.danger-outline {
+    border: $button-danger-outline-border;
+    color: $button-danger-outline-color;
+    background: $button-danger-outline-bg;
+  }
+  &.success {
+    color: $button-success-color;
+    background: $button-success-bg;
+  }
+  &.transparent {
+    color: $button-transparent-color;
+    background: transparent;
+    border: 1px solid transparent;
+  }
+  &.blue {
+    border: $button-blue-border;
+    color: $button-blue-color;
+    background: $button-blue-bg;
+  }
+  &.text {
+    color: $primary;
+    background: $white;
+  }
+  &.icon-rounded {
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 50%;
+    width: 32px;
+    min-width: 32px;
+  }
+
+  &:not(:disabled) {
+    &.primary:hover {
+      background: $button-primary-hover-bg;
+    }
+    &.primary:active {
+      background: $button-primary-active-bg;
+    }
+    &.primary-outline:hover {
+      background: $button-primary-outline-hover-bg;
+    }
+    &.primary-outline:active {
+      background: $button-primary-outline-active-bg;
+    }
+
+    &.secondary:hover {
+      background: $button-secondary-hover-bg;
+    }
+    &.secondary:active {
+      background: $button-secondary-active-bg;
+    }
+    &.secondary-outline:hover {
+      background: $button-secondary-outline-hover-bg;
+    }
+    &.secondary-outline:active {
+      background: $button-secondary-outline-active-bg;
+    }
+
+    &.danger:hover {
+      background: $button-danger-hover-bg;
+    }
+    &.danger:active {
+      background: $button-danger-active-bg;
+    }
+    &.danger-outline:hover {
+      background: $button-danger-outline-hover-bg;
+    }
+    &.danger-outline:active {
+      background: $button-danger-outline-active-bg;
+    }
+
+    &.transparent:hover {
+      color: $button-transparent-hover-color;
+    }
+    &.transparent:active {
+      color: $button-transparent-active-color;
+    }
+
+    &.blue:hover {
+      background: $button-blue-hover-bg;
+    }
+    &.blue:active {
+      background: $button-blue-active-bg;
+    }
+  }
+}
+.split-button {
+  .btn .icon.left {
+    margin: -7px 4px -7px 8px;
+    &:before {
+      top: -4px;
+    }
+  }
+}
+button.btn,
+a.btn {
+  padding: 9px 16px;
+}

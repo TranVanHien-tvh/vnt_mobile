@@ -1,0 +1,122 @@
+.ms-pagination {
+  padding: 0 16px;
+  height: 40px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  align-items: center;
+  ::v-deep.show-detail-status{
+    background: #fff;
+    border: none;
+    outline: unset;
+    cursor: pointer;
+    color: #2C8EFF;
+  }
+  .h-20{
+    height: 20px;
+  }
+  .h-16{
+    height: 16px;
+  }
+  .h-40{
+    height: 40px;
+    align-items: center;
+  }
+}
+.line-height-32 {
+  line-height: 32px !important;
+}
+
+.line-height-56 {
+  line-height: 56px !important;
+}
+.status {
+  color: #2C8EFF;
+  cursor: pointer;
+}
+
+.total,
+.from,
+.to {
+  font-weight: 700;
+  margin: 0 6px;
+}
+
+.total .loading {
+  position: relative;
+  width: 40px;
+  background: transparent;
+
+  &::before {
+    width: 20px;
+  }
+}
+.page-size {
+  width: 85px;
+  margin: 4px 16px;
+  line-height: 32px;
+}
+
+.move {
+  height: 36px;
+  width: 36px;
+  position: relative;  
+  &::before {
+    content: "";
+    position: absolute;
+    background: transparent url($ms-image-sprites) no-repeat -240px 0;
+    height: 24px;
+    width: 24px;
+    top: 8px;
+    left: 6px;
+  }
+  &.prev {
+    margin-left: 25px;
+    margin-top: 4px;
+    transform: rotate(-180deg);
+    height: 36px;
+    width: 36px;
+    position: relative;
+  }
+  &.not-magin {
+    margin-left: unset;
+  }
+  &:not(.disabled):hover {
+    cursor: pointer;
+    background-color: #f3f3f3;
+    border-radius: 3.5px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  &.disabled {
+    opacity: 0.4;
+  }
+}
+
+
+
+.flex-normal {
+  display: flex;
+}
+
+@media screen and (max-width: 1366px) {
+  .min-page-caption {
+    min-width: 40px;
+  }
+  .min-asset-quantity {
+    min-width: 55px;
+  }
+  .min-asset-amount {
+    min-width: 55px;
+  }
+  .min-page-status {
+    min-width: 150px;
+  }
+}
+
+.pr-12 {
+  padding-right: 12px;
+}
+.arrow {
+  margin-top: -12px
+}

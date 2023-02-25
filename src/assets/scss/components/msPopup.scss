@@ -1,0 +1,339 @@
+@import "@/assets/scss/_variables.scss";
+.ms-popup {
+  width: 100%;
+  background-color: $white;
+  box-shadow: $popup-shadow;
+  overflow: auto;
+  border-radius: 4px;
+  position: relative;
+  // màu khi không dùng model
+  &.none-pop-modal {
+    background-color: #f5f5f5 !important;
+    padding: 15px 24px 12px;
+  }
+
+  &.full {
+    height: 100%;
+  }
+}
+::v-deep.ams-popup{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+$banner-height: 56px;
+.full-main-view {
+  top: $banner-height !important;
+  height: calc(100% - #{$banner-height}) !important;
+  &:not(.left-menu-collapse) {
+    left: $main-left-menu-width !important;
+    width: calc(100% - 204px) !important;
+  }
+  &.left-menu-collapse {
+    left: $main-left-menu-collapse-width !important;
+    width: calc(100% - 56px) !important;
+  }
+  .ms-popup {
+    box-shadow: none;
+  }
+}
+.ms-popup-main, .full-screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+}
+
+.full-screen {
+  .full-main-view {
+    top: 0 !important;
+    left: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+  }
+}
+// ::v-deep.full-main-view{
+//   z-index: 11 !important;
+// }
+
+.buttons {
+  position: absolute;
+  top: 0;
+  right: 4px;
+  .button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 8px;
+
+    &::before {
+      content: "";
+      display: block;
+      background: transparent url($ms-image-sprites) no-repeat;
+      height: 20px;
+      width: 20px;
+    }
+
+    &.close::before {
+      background-position: -242px -26px;
+    }
+    &.close-red::before {
+      background-position: -266px -26px;
+    }
+    &.help::before {
+      background-position: -50px -50px;
+    }
+    &.maximum {
+      &:not(.full)::before {
+        background-position: -194px -170px;
+      }
+      &.full::before {
+        background-position: -146px -194px;
+      }
+    }
+  }
+}
+
+.popup-header {
+  font-size: $popup-title-font-size;
+  padding: 24px 0 6px 24px;
+  font-weight: 700;
+  min-height: 24px;
+}
+
+.popup-content {
+  padding: 24px 24px 0;
+  position: relative;
+}
+
+.popup-footer {
+  padding: 12px 24px;
+  border-top: $popup-footer-top-border;
+  // background: $popup-footer-bg;
+}
+
+.popup-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  // z-index: 1001;
+  -moz-opacity: 0.25;
+  opacity: 0.25;
+}
+
+.right-menu-view {
+  justify-content: flex-end;
+  height: 100% !important;
+  right: 0 !important;
+  top: 56px !important;
+  left: auto !important;
+  .ms-popup {
+    height: calc(100% - 56px) !important;
+  }
+}
+
+//css cho popup slide bên phải
+//TDNGHIA đã ghé thăm: 15/9/2021
+::v-deep.slide-detail-form{
+  .buttons {
+    position: absolute;
+    top: 6px;
+    right: 17px;
+    z-index: 999999;
+    .button {
+      cursor: pointer;
+      display: inline-block;
+      height: 32px;
+      width: 32px;
+      padding: 6px;
+      &::before {
+        content: "";
+        display: block;
+        background: transparent url($ms-image-sprites) no-repeat;
+        height: 24px;
+        width: 24px;
+      }
+      &.close::before {
+        background-position: -242px -26px !important;
+      }
+      &.close-red::before {
+        background-position: -266px -26px !important;
+      }
+      &.help::before {
+        background-position: -50px -50px !important;
+      }
+      &.maximum {
+        &:not(.full)::before {
+          background-position: -194px -170px !important;
+        }
+        &.full::before {
+          background-position: -146px -194px !important;
+        }
+      }
+    }
+  }
+
+  .popup-header {
+    font-size: $popup-title-font-size;
+    font-weight: 600;
+    min-height: 24px;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  .popup-footer {
+    border-top: $popup-footer-top-border;
+    padding: 0;
+    padding-top: 9px;
+    height: 48px;
+  }
+
+  .popup-content {
+    height: calc(100% - 62px - 30px) !important;
+    padding: 0;
+  }
+
+  //css cho slide trong detail
+  &.no-header{
+    .ms-popup{
+      padding: 23px 0 0 0;
+      .popup-header{
+        min-height: 0;
+        margin-bottom: 0px;
+      }
+      .popup-content{
+        height: 100%!important;
+        .tab-view{
+          height: calc(100% - 32px);
+          .tab-item-content.p-15{
+            padding: 15px;
+            overflow: auto;
+          }
+        }
+        .title-1{
+          font-size: 16px;
+          font-weight: 600;
+          margin-bottom: 7px;
+        }
+        
+        .w-140{
+          width: 140px;
+          margin-bottom: 0;
+        }
+
+        .w-300{
+          width: 300px;
+        }
+
+        .w-110{
+          width: 110px;
+          margin-bottom: 0;
+        }
+
+        .mr-48{
+          margin-right: 48px;
+        }
+
+        .mb-15{
+          margin-bottom: 15px;
+        }
+      }
+      .popup-footer{
+        border-top: none;
+        padding: 0;
+        height: 0;
+      }
+    }
+  }
+}
+
+//css cho popup full màn hình
+//TDNGHIA đã ghé thăm: 18/9/2021
+::v-deep.full-detail-form{
+  .back{
+    margin-right: 5px;
+  }
+  .ms-popup{
+    background-color: #EDF1F5 !important;
+  }
+  .popup-header{
+    font-size: 16px;
+    padding: 0;
+    height: 32px;
+    .top-bar{
+      height: 100%;
+      align-items: center;
+    }
+  }
+
+  .popup-content{
+    padding: 0;
+    background-color: #fff;
+    margin-top: 15px;
+    .list-tab-menu{
+      padding: 17px 8px 0;
+      .tab-item-parent {
+        height: 19px;
+        margin-bottom: 4px;
+        padding-left: 10px;
+        &.active {
+          font-weight: 600;
+          color: #ff5722;
+        }
+      }
+    }
+    .tab-nav-full{
+      margin-top: 15px;
+      .tab{
+        color: #707070;
+        &.active{
+          color: #2979ff;
+        }
+      }
+    }
+    .tab-view{
+      height: calc(100% - 46px);
+      .tab-item-content.p-15{
+        padding: 15px;
+      }
+    }
+    .slide{
+      border: 1px solid #dddddd;
+    }
+  }
+  
+  .popup-footer {
+    background-color: #fbfbfe;
+    padding: 12px 20px;
+  }
+  //css đối với detail full nhưng không có foooter
+  &.no-footer .popup-footer {
+    padding: 0;
+    border-top: none;
+  }
+}
+
+//css cho popup thường
+.popup-custom {
+  .popup-header {
+    border-bottom: 1px solid #E0E1EF;
+    padding: 24px 0 20px 24px;
+  }
+}
+
+::v-deep.popup-center{
+  .popup-content{
+    padding-top: 10px;
+    .label-top{
+      padding: 0;
+      color: $label-color;
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+  }
+}

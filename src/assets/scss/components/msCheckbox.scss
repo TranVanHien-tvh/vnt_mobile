@@ -1,0 +1,102 @@
+.ms-checkbox {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+}
+
+.ms-checkbox input {
+  position: absolute;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  z-index: 500;
+
+  &:not(:disabled):hover {
+    cursor: pointer;
+  }
+}
+
+.checkmark {
+  display: inline-block;
+  background: url($ms-image-ic_checkbox_gray);
+  width: 16px;
+  height: 16px;
+  vertical-align: bottom;
+  position: relative;
+}
+
+input:checked ~ .checkmark {
+  background: url($ms-image-ic_checkbox_active);
+}
+input:not(:disabled):not(:checked):hover ~ .checkmark {
+  cursor: pointer;
+  background: url($ms-image-ic_checkbox_hover);
+}
+input:not(:disabled):not(:checked):focus ~ .checkmark {
+  background: url($ms-image-ic_checkbox_hover);
+}
+input:disabled ~ .checkmark {
+  background: url($ms-image-ic_checkbox_disabled);
+}
+input:checked:disabled ~ .checkmark {
+  background: url($ms-image-ic_checkbox_disabled_active);
+}
+
+.ms-checkbox--text {
+  padding-left: 10px;
+  // padding-bottom: 1px;
+  display: inline-block;
+}
+
+input:not(:disabled):hover ~ .ms-checkbox--text {
+  cursor: pointer;
+}
+.ms-checkbox-control {
+  &:focus {
+    +.checkmark::before {
+      content: '';
+      height: 16px;
+      width: 16px;
+      position: absolute;
+      border: 1px solid #a6c7ff;
+      display: block;
+      border-radius: 2px;
+    }
+  }
+}
+.event-none{
+  pointer-events: none;
+}
+
+/*
+* Css cho checkbox trung gian để bỏ chọn các dòng
+* TDNGHIA 8/10/2021
+*/
+.ms-checkbox.checkmark-temp .checkmark{
+  display: inline-block;
+  background: url($ms-image-ic_checkbox_temp);
+  background-position: -544px -144px;
+  width: 16px;
+  height: 16px;
+  vertical-align: bottom;
+  position: relative;
+}
+
+.ms-checkbox.checkmark-temp {
+  input:not(:disabled):not(:checked):hover ~ .checkmark {
+    cursor: pointer;
+    background: url($ms-image-ic_checkbox_temp);
+    background-position: -544px -144px;
+    width: 16px;
+    height: 16px;
+  }
+  input:not(:disabled):not(:checked):focus ~ .checkmark {
+    background: url($ms-image-ic_checkbox_temp);
+    background-position: -544px -144px;
+    width: 16px;
+    height: 16px;
+  }
+}

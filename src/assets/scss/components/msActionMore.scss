@@ -1,0 +1,54 @@
+@import "~@/assets/scss/_variables.scss";
+$action-text-line-height: 34px;
+
+.action-multi {
+  padding: 0px 20px;
+  background: $white;
+  border-radius: $box-border-radius;
+}
+.selected-count {
+  line-height: $action-text-line-height;
+}
+.selected-all {
+  line-height: $action-text-line-height;
+  margin: 0 10px;
+}
+.action-container {
+  white-space: nowrap;
+}
+.action {
+  border: 1px solid #ccc;
+  margin: 0 0 0 9px;
+  display: inline-flex;
+}
+
+.text {
+  padding-left: 0;
+}
+.has-icon{
+    font-family: "Lato";
+    color: #212121;
+    font-size: 14px;
+    font-weight: 400;
+}
+//tạo vách ngăn
+.li-re-use{
+  margin: 0 8px 8px 8px !important;
+  border-bottom: 1px solid #e0e0e0;
+  .menu-item.has-icon{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-bottom: 8px;
+  }
+}
+
+//tạo vách ngăn
+.li-LostComponent{
+  margin: 0 8px 8px 8px !important;
+  border-bottom: 1px solid #e0e0e0;
+  .menu-item.has-icon{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-bottom: 8px;
+  }
+}

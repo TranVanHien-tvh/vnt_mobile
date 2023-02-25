@@ -1,0 +1,56 @@
+@import "@/assets/scss/_variables.scss";
+.ms-switch {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+
+  input {
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+
+    &:not(:disabled):hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.checkmark {
+  display: inline-block;
+  background: #9e9e9e;
+  width: $switch-width;
+  height: $switch-height;
+  border-radius: 10px;
+  padding: 1px;
+  position: relative;
+  text-align: left;
+}
+
+.icon {
+  background: $white;
+  height: $switch-icon-size;
+  width: $switch-icon-size;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+input:checked ~ .checkmark {
+  background: $primary;
+  text-align: right;
+}
+input:disabled ~ .checkmark {
+  opacity: $switch-disable-opacity;
+}
+
+input:not(:disabled) ~ .checkmark:hover {
+  cursor: pointer;
+}
+
+.ms-switch-text {
+  padding-left: 6px;
+  display: inline-block;
+}

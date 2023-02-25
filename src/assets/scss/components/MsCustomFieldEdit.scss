@@ -1,0 +1,13 @@
+@import "@/assets/scss/_variables.scss";
+
+.grid-box {
+  min-height: 300px;
+}
+
+::v-deep.btn {
+  min-width: 80px;
+}
+
+::v-deep.popup-content {
+  max-height: 450px;
+}

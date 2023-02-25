@@ -1,0 +1,150 @@
+@import "@/assets/scss/_variables.scss";
+
+::v-deep {
+
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    .vnt-btn {
+        border-radius: 9px;
+        width: 100%;
+
+        .text {
+            color: #363636;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .icon24,
+        .icon24::before {
+            width: 31px;
+            height: 30px;
+        }
+    }
+
+    .vnt-login-btn {
+        height: 56px;
+        background-image: linear-gradient(to right, #634fa3, #79b7d9);
+        margin-bottom: 15px;
+
+        .text {
+            font-size: 20px !important;
+            font-weight: 500 !important;
+            color: #ffffff !important;
+        }
+    }
+
+    .ms-input-item {
+        padding-left: 20px;
+    }
+
+    input:checked~.checkmark {
+        background: #6477ba;
+        text-align: right;
+    }
+
+    // .error-text {
+    //     color: #e61d1d;
+    //     margin-top: 6px;
+    //     margin-left: 0;
+    //     margin-right: auto;
+    //     display: flex;
+    // }
+
+    .fb-icon::before {
+        background-image: url("~@/assets/images/icons/vnt/facebook.svg");
+        top: -2px;
+        left: 0px;
+    }
+
+    .gg-icon::before {
+        background-image: url("~@/assets/images/icons/vnt/google.svg");
+        top: -2px;
+        left: 0px;
+    }
+
+}
+
+.login {
+    height: 100%;
+    padding-top: 90px;
+}
+
+.login-title {
+    font-size: 28px;
+    font-weight: 500;
+    color: #6477ba;
+    text-align: center;
+}
+
+.login-content {
+    margin-bottom: 10px;
+}
+
+.login-info {
+    color: #363636;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.forgot-password-container {
+    .forgot-password-content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        span {
+            font-size: 16px;
+            font-weight: 500;
+            color: #5c5c5c;
+            cursor: pointer;
+        }
+
+        div {
+            color: #6477ba;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        .forgot-password-text:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .fb-login,
+    .gg-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 56px;
+        border-radius: 9px;
+        background-color: #f6f6f6;
+        border: solid 1px #e4e4e4;
+        margin-bottom: 15px;
+    }
+
+
+    .register-content {
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+
+        span {
+            font-size: 16px;
+            color: #363636;
+        }
+
+        a {
+            font-size: 16px;
+            color: #6477ba;
+            font-weight: 600;
+        }
+    }
+}

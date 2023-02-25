@@ -1,0 +1,105 @@
+@import "@/assets/scss/_variables.scss";
+
+.main-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  &.collapse {
+    .main-left {
+      width: $main-left-menu-collapse-width;
+    }
+
+    .main-right {
+      padding-left: $main-left-menu-collapse-width;
+    }
+
+    ::v-deep.menu-item-admin {
+      padding: 0;
+      font-size: 0;
+      border: none;
+      height: 40px;
+      margin: 4px 8px 8px 8px;
+      border-radius: 6px;
+      color: transparent;
+      width: 40px;
+
+      &:first-child {
+        margin-top: 4px;
+      }
+
+      &:before {
+        top: 8px;
+        left: 8px;
+      }
+      &.active {
+        border-color: transparent;
+      }
+    }
+
+    ::v-deep.app-menu #AMIS_Launcher:before {
+      background-position: -195px -3px;
+      left: 18px;
+    }
+
+    ::v-deep.toggle-button {
+      &:before, &:after {
+        transform: rotate(0deg);
+      }
+    }
+  }
+}
+
+@mixin box-shadow($x-axis: 0, $y-axis: 1px, $blur: 2px, $spread: 0, $color: $default) {
+  box-shadow: inset $x-axis $y-axis $blur $spread $color;
+}
+
+.main-left {
+  position: absolute;
+  left: 0;
+  top: 56px;
+  background: #FFFFFF;
+  height: calc(100% - 56px);
+  width: $main-left-menu-width;
+  transition: width $main-transition-time;
+  z-index: 12;
+  @include box-shadow( 0, 1.5px, 2px, 0, rgba(0,0,0,0.1));
+}
+
+.main-right {
+  padding-left: $main-left-menu-width;
+  transition: padding $main-transition-time;
+  // height: calc(100vh - 118px);
+  // height: auto;
+  flex: 1;
+}
+
+.main-nav {
+  // height: 118px;
+}
+
+.main-view {
+  // min-width: 500px;
+  // min-height: 500px;
+  @include box-shadow( 0, 1.5px, 2px, 0, rgba(0,0,0,0.1));
+  background-color: #FFFFFF;
+  // padding: 16px;
+  // padding: 0 40px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 80px;
+  // margin-top: 90px;
+  // margin-bottom: 16px
+}
+
+// float container chứa các thành phần trôi nổi trên giao diện
+.main-float{
+  position: absolute;
+  width: 100%;
+  z-index: 10000;
+}
+
+@media (max-width: 768px) {
+  .main-view{
+      padding: 0;
+  }
+}

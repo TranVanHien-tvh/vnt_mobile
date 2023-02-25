@@ -1,0 +1,82 @@
+@import "@/assets/scss/_variables.scss";
+.condition-container {
+  position: absolute;
+  right: -1px;
+  padding: 10px 16px 24px 16px;
+  z-index: 9999;
+  background: white;
+  width: 280px;
+  font-weight: normal;
+  font-size: 14px;
+  border-radius: 4px;
+  box-shadow: 0 0 13px #ddd;
+  text-align: left;
+
+  .lock {
+    position: relative;
+    padding-left: 30px;
+    line-height: 24px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(235, 237, 240);
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      display: block;
+      height: 24px;
+      width: 24px;
+      top: 0;
+      left: 2px;
+      background: transparent url($ms-image-sprites) no-repeat -1726px -560px;
+    }
+  }
+
+  .unlock {
+    &:before {
+      background-position: -1766px -560px;
+    }
+  }
+
+  .filter-container {
+    margin-top: 14px;
+    .view-fitler-text {
+      white-space: nowrap;
+    }
+    ::v-deepbutton {
+      width: auto !important;
+    }
+  }
+  .column-filter {
+    font-weight: 600;
+  }
+  .filter-op {
+    margin-top: 9px;
+  }
+
+  .filter-value {
+    margin-top: 9px;
+  }
+
+  .buttons {
+    flex-direction: row-reverse;
+    margin-top: 20px;
+  }
+  
+}
+::v-deep .autocomplete__inputs .form-control{
+  height: 34px;
+}
+::v-deep .filter-value .autocomplete__box:not(.error):focus {
+  outline: #2979ff auto 1px;
+}
+::v-deep .filter-value .autocomplete__box:not(.error):focus-within {
+  outline: #2979ff auto 1px;
+}
+::v-deep .filter-value .autocomplete__box:not(.error):hover {
+  border-color: #2979ff;
+}
+::v-deep .ml-10{
+  margin-left: 10px;
+}

@@ -1,0 +1,117 @@
+@import "@/assets/scss/_variables.scss";
+
+
+  .navbar-nav {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 0 auto;
+    .nav-item{
+      cursor: pointer;
+    }
+  }
+
+.dropdown-info-user{
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1000;
+  float: left;
+  min-width: 10rem;
+  padding: 21px 0 17px 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 0.25rem;
+  width: 222px;
+  .avatar{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 12px;
+    overflow: hidden;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .dropdown-item{
+    padding: 0 15px;
+
+    .dropdown-child{
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #e4e4e4;
+    }
+  }
+
+  .logout{
+    padding: 17px 0 0 0;
+    color: #6477BA;
+    a:hover{
+      text-decoration: none;
+      color: #6477BA;
+    }
+  }
+
+  .add_club{
+    padding: 0 0 5px 0;
+    color: #6477BA;
+    a:hover{
+      text-decoration: none;
+      color: #6477BA;
+    }
+  }
+
+  .add_activity{
+    padding: 5px 0 0 0;
+    color: #6477BA;
+    border-top: 1px solid #ddd;
+    a:hover{
+      text-decoration: none;
+      color: #6477BA;
+    }
+  }
+}
+.po-relative{
+  position: relative;
+}
+.align-center{
+  align-items: center;
+}
+
+.ic_group_club{
+  background-image: url('~@/assets/images/icons/vnt/ic_donate_heart.svg');
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 35px;
+}
+
+.ic_add_activity{
+  background-image: url('~@/assets/images/icons/vnt/ic_activity.svg');
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 35px;
+}
+
+.color-active{
+  color: #6477BA !important;
+}
+
+.nav-content {
+  // color: #5c5c5c !important;
+  padding: 0 20px !important;
+}
+
+.m-r-8{
+  margin-right: 8px;
+}
+
+.pb-19{
+  padding-bottom: 19px;
+}

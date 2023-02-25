@@ -1,0 +1,40 @@
+@import "~@/assets/scss/_variables.scss";
+$action-text-line-height: 36px;
+
+.action-multi {
+  // padding: 0 20px 14px 20px;
+  // background: $white;
+  border-radius: $box-border-radius;
+}
+.big-screen{
+  .action-multi {
+    padding: 0px 20px;
+  }
+}
+.selected-count {
+  line-height: $action-text-line-height;
+}
+.selected-all {
+  line-height: $action-text-line-height;
+  margin: 0 10px;
+}
+.action-container {
+  white-space: nowrap;
+}
+.action {
+  border: 1px solid #ccc;
+  margin: 0 0 0 9px;
+  display: inline-flex;
+  // background-color: #fff;
+}
+
+// NMTUAN3 18/11/2021: khi có cả text và icon thì bỏ padding-left
+.text-pl-0 {
+  padding-left: 0 !important;
+}
+
+.de-selected {
+  color: #2979ff;
+  cursor: pointer;
+  margin-left: 14px;
+}

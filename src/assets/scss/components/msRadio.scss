@@ -1,0 +1,57 @@
+.ms-radio {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .ms-radio input {
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+  
+    &:not(:disabled):hover {
+      cursor: pointer;
+    }
+  }
+  
+  .checkmark {
+    display: inline-block;
+    background: url($ms-image-ic_radio_inactive);
+    width: 16px;
+    height: 16px;
+    vertical-align: bottom;
+    position: relative;
+    pointer-events: none;
+  }
+  
+  input:checked ~ .checkmark {
+    background: url($ms-image-ic_radio_active);
+  }
+  input:not(:disabled):not(:checked):hover ~ .checkmark {
+    cursor: pointer;
+    background: url($ms-image-ic_radio_hover);
+  }
+  input:not(:disabled):not(:checked):focus ~ .checkmark {
+    background: url($ms-image-ic_radio_hover);
+  }
+  input:disabled ~ .checkmark {
+    background: url($ms-image-ic_radio_disabled);
+  }
+  input:checked:disabled ~ .checkmark {
+    background: url($ms-image-ic_radio_disabled_active);
+  }
+  
+  .ms-radio--text {
+    padding-left: 10px;
+    padding-bottom: 0px;
+    display: inline-block;
+  }
+  
+  input:not(:disabled):hover ~ .ms-radio--text {
+    cursor: pointer;
+  }
+  

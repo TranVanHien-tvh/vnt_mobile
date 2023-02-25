@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1552" height="556" viewBox="0 0 1552 556">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="1552" height="313" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_53859" data-name="Group 53859" transform="translate(-536 -129)">
+    <text id="Báo_cáo_số_lượng_các_nhân_tập_thể_đã_được_khen_thưởng" data-name="Báo cáo số lượng các nhân, tập thể đã được khen thưởng" transform="translate(1370 151)" fill="#2a3958" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-326.865" y="0">BÁO CÁO SỐ LƯỢNG CÁC NHÂN, TẬP THỂ ĐÃ ĐƯỢC KHEN THƯỞNG</tspan></text>
+    <g id="Group_53863" data-name="Group 53863" transform="translate(0 25)">
+      <g id="Rectangle_22426" data-name="Rectangle 22426" transform="translate(536 620)" fill="#fbfbfe" stroke="#ddd" stroke-width="1">
+        <path d="M0,0H1552a0,0,0,0,1,0,0V36a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M1,.5H1551a.5.5,0,0,1,.5.5V36a3.5,3.5,0,0,1-3.5,3.5H4A3.5,3.5,0,0,1,.5,36V1A.5.5,0,0,1,1,.5Z" fill="none"/>
+      </g>
+      <g id="Rectangle_22422" data-name="Rectangle 22422" transform="translate(536 166)" fill="#fff" stroke="#ddd" stroke-width="1">
+        <path d="M4,0H1548a4,4,0,0,1,4,4V143a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" stroke="none"/>
+        <path d="M4,.5H1548a3.5,3.5,0,0,1,3.5,3.5V142a.5.5,0,0,1-.5.5H1a.5.5,0,0,1-.5-.5V4A3.5,3.5,0,0,1,4,.5Z" fill="none"/>
+      </g>
+      <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(536 308)" clip-path="url(#clip-path)">
+        <g transform="translate(-536 -205)">
+          <g id="Rectangle_22423" data-name="Rectangle 22423" transform="translate(536 205)" fill="#fff" stroke="#ddd" stroke-width="1">
+            <rect width="1552" height="40" stroke="none"/>
+            <rect x="0.5" y="0.5" width="1551" height="39" fill="none"/>
+          </g>
+        </g>
+        <g transform="translate(-536 -166)">
+          <g id="Rectangle_22423-2" data-name="Rectangle 22423" transform="translate(536 205)" fill="#fff" stroke="#ddd" stroke-width="1">
+            <rect width="1552" height="40" stroke="none"/>
+            <rect x="0.5" y="0.5" width="1551" height="39" fill="none"/>
+          </g>
+        </g>
+        <g transform="translate(-536 -127)">
+          <g id="Rectangle_22423-3" data-name="Rectangle 22423" transform="translate(536 205)" fill="#fff" stroke="#ddd" stroke-width="1">
+            <rect width="1552" height="40" stroke="none"/>
+            <rect x="0.5" y="0.5" width="1551" height="39" fill="none"/>
+          </g>
+        </g>
+        <g transform="translate(-536 -88)">
+          <g id="Rectangle_22423-4" data-name="Rectangle 22423" transform="translate(536 205)" fill="#fff" stroke="#ddd" stroke-width="1">
+            <rect width="1552" height="40" stroke="none"/>
+            <rect x="0.5" y="0.5" width="1551" height="39" fill="none"/>
+          </g>
+        </g>
+        <g transform="translate(-536 -49)">
+          <g id="Rectangle_22423-5" data-name="Rectangle 22423" transform="translate(536 205)" fill="#fff" stroke="#ddd" stroke-width="1">
+            <rect width="1552" height="40" stroke="none"/>
+            <rect x="0.5" y="0.5" width="1551" height="39" fill="none"/>
+          </g>
+        </g>
+        <g transform="translate(-536 -10)">
+          <g id="Rectangle_22423-6" data-name="Rectangle 22423" transform="translate(536 205)" fill="#fff" stroke="#ddd" stroke-width="1">
+            <rect width="1552" height="40" stroke="none"/>
+            <rect x="0.5" y="0.5" width="1551" height="39" fill="none"/>
+          </g>
+        </g>
+        <g transform="translate(-536 29)">
+          <g id="Rectangle_22423-7" data-name="Rectangle 22423" transform="translate(536 205)" fill="#fff" stroke="#ddd" stroke-width="1">
+            <rect width="1552" height="40" stroke="none"/>
+            <rect x="0.5" y="0.5" width="1551" height="39" fill="none"/>
+          </g>
+        </g>
+        <g transform="translate(-536 68)">
+          <g id="Rectangle_22423-8" data-name="Rectangle 22423" transform="translate(536 205)" fill="#fff" stroke="#ddd" stroke-width="1">
+            <rect width="1552" height="40" stroke="none"/>
+            <rect x="0.5" y="0.5" width="1551" height="39" fill="none"/>
+          </g>
+        </g>
+        <g transform="translate(-536 107)">
+          <g id="Rectangle_22423-9" data-name="Rectangle 22423" transform="translate(536 205)" fill="#fff" stroke="#ddd" stroke-width="1">
+            <rect width="1552" height="40" stroke="none"/>
+            <rect x="0.5" y="0.5" width="1551" height="39" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <text id="STT" transform="translate(557 242)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="0" y="0">STT</tspan></text>
+      <text id="Danh_hiệu_thi_đua_và_hình_thức_khen_thưởng" data-name="Danh hiệu thi đua và 
+hình thức khen thưởng" transform="translate(743 232)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="-68.668" y="0">Danh hiệu thi đua và </tspan><tspan x="-74.763" y="20">hình thức khen thưởng</tspan></text>
+      <text id="Số_lượng_khen_thưởng_trong_năm" data-name="Số lượng khen thưởng trong năm" transform="translate(1010 191)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="-108.958" y="0">Số lượng khen thưởng trong năm</tspan></text>
+      <text id="Tổng_số" data-name="Tổng số" transform="translate(926 262)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="-25.82" y="0">Tổng số</tspan></text>
+      <text id="Tổng_số-2" data-name="Tổng số" transform="translate(1178 262)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="-25.82" y="0">Tổng số</tspan></text>
+      <text id="Tổng_số-3" data-name="Tổng số" transform="translate(1654 262)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="-25.82" y="0">Tổng số</tspan></text>
+      <text id="Tỷ_lệ_" data-name="Tỷ lệ
+(%)" transform="translate(1251 252)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="-15.296" y="0">Tỷ lệ</tspan><tspan x="-11.098" y="20">(%)</tspan></text>
+      <text id="Tỷ_lệ_2" data-name="Tỷ lệ
+(%)" transform="translate(1727 252)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="-15.296" y="0">Tỷ lệ</tspan><tspan x="-11.098" y="20">(%)</tspan></text>
+      <text id="Số_lượng_tập_thể_khen" data-name="Số lượng
+tập thể
+khen" transform="translate(1327 242)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="-29.287" y="0">Số lượng</tspan><tspan x="-23.068" y="20">tập thể</tspan><tspan x="-15.94" y="40">khen</tspan></text>
+      <text id="Số_lượng_tập_thể_khen-2" data-name="Số lượng
+tập thể
+khen" transform="translate(1803 242)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="-29.287" y="0">Số lượng</tspan><tspan x="-23.068" y="20">tập thể</tspan><tspan x="-15.94" y="40">khen</tspan></text>
+      <text id="Khen_cá_nhân_quản_lý_cấp_phòng_trở_lên_" data-name="Khen cá
+nhân (quản lý 
+cấp phòng
+trở lên)" transform="translate(1434 232)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="-25.416" y="0">Khen cá</tspan><tspan x="-46.244" y="20">nhân (quản lý </tspan><tspan x="-34.238" y="40">cấp phòng</tspan><tspan x="-23.955" y="60">trở lên)</tspan></text>
+      <text id="Khen_cá_nhân_quản_lý_cấp_phòng_trở_lên_2" data-name="Khen cá
+nhân (quản lý 
+cấp phòng
+trở lên)" transform="translate(1910 232)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="-25.416" y="0">Khen cá</tspan><tspan x="-46.244" y="20">nhân (quản lý </tspan><tspan x="-34.238" y="40">cấp phòng</tspan><tspan x="-23.955" y="60">trở lên)</tspan></text>
+      <text id="Khen_cá_nhân_không_làm_công_tác_quản_lý_" data-name="Khen cá
+nhân (không 
+làm công 
+tác quản lý)" transform="translate(1554 232)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="-25.416" y="0">Khen cá</tspan><tspan x="-43.1" y="20">nhân (không </tspan><tspan x="-31.675" y="40">làm công </tspan><tspan x="-37.853" y="60">tác quản lý)</tspan></text>
+      <text id="Khen_cá_nhân_không_làm_công_tác_quản_lý_2" data-name="Khen cá
+nhân (không 
+làm công 
+tác quản lý)" transform="translate(2030 232)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="-25.416" y="0">Khen cá</tspan><tspan x="-43.1" y="20">nhân (không </tspan><tspan x="-31.675" y="40">làm công </tspan><tspan x="-37.853" y="60">tác quản lý)</tspan></text>
+      <text id="Số_lượng_khen_thưởng" data-name="Số lượng
+khen thưởng" transform="translate(1050 232)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="-29.287" y="0">Số lượng</tspan><tspan x="-41.973" y="20">khen thưởng</tspan></text>
+      <text id="Tập_thể" data-name="Tập thể" transform="translate(1009 293)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="-24.446" y="0">Tập thể</tspan></text>
+      <text id="Cá_nhân" data-name="Cá nhân" transform="translate(1093 293)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="-26.097" y="0">Cá nhân</tspan></text>
+      <text id="Khen_thưởng_công_trạng_thành_tích_đạt_được" data-name="Khen thưởng công trạng, thành tích đạt được" transform="translate(1231 191)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="0" y="0">Khen thưởng công trạng, thành tích đạt được</tspan></text>
+      <text id="Khen_thưởng_chuyên_đề_đột_xuất" data-name="Khen thưởng chuyên đề, đột xuất" transform="translate(1849 191)" fill="#182d4b" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.01em"><tspan x="-108.588" y="0">Khen thưởng chuyên đề, đột xuất</tspan></text>
+      <path id="Path_77081" data-name="Path 77081" d="M2587.629,166.645v494" transform="translate(-1703.629 -0.645)" fill="none" stroke="#ddd" stroke-width="1"/>
+      <path id="Path_77087" data-name="Path 77087" d="M2587.629,166.645v453" transform="translate(-1619.629 40.355)" fill="none" stroke="#ddd" stroke-width="1"/>
+      <path id="Path_77089" data-name="Path 77089" d="M2587.629,166.645v494" transform="translate(-1451.629 -0.645)" fill="none" stroke="#ddd" stroke-width="1"/>
+      <path id="Path_77090" data-name="Path 77090" d="M2587.629,166.645v453" transform="translate(-1367.629 40.355)" fill="none" stroke="#ddd" stroke-width="1"/>
+      <path id="Path_77099" data-name="Path 77099" d="M2587.629,166.645v453" transform="translate(-891.629 40.355)" fill="none" stroke="#ddd" stroke-width="1"/>
+      <path id="Path_77091" data-name="Path 77091" d="M2587.629,166.645v453" transform="translate(-1305.629 40.355)" fill="none" stroke="#ddd" stroke-width="1"/>
+      <path id="Path_77098" data-name="Path 77098" d="M2587.629,166.645v453" transform="translate(-829.629 40.355)" fill="none" stroke="#ddd" stroke-width="1"/>
+      <path id="Path_77092" data-name="Path 77092" d="M2587.629,166.645v453" transform="translate(-1215.629 40.355)" fill="none" stroke="#ddd" stroke-width="1"/>
+      <path id="Path_77097" data-name="Path 77097" d="M2587.629,166.645v453" transform="translate(-739.629 40.355)" fill="none" stroke="#ddd" stroke-width="1"/>
+      <path id="Path_77093" data-name="Path 77093" d="M2587.629,166.645v453" transform="translate(-1091.629 40.355)" fill="none" stroke="#ddd" stroke-width="1"/>
+      <path id="Path_77096" data-name="Path 77096" d="M2587.629,166.645v453" transform="translate(-615.629 40.355)" fill="none" stroke="#ddd" stroke-width="1"/>
+      <path id="Path_77094" data-name="Path 77094" d="M2587.629,166.645v494" transform="translate(-975.629 -0.645)" fill="none" stroke="#ddd" stroke-width="1"/>
+      <path id="Path_77088" data-name="Path 77088" d="M2587.629,166.645v392" transform="translate(-1537.629 101.355)" fill="none" stroke="#ddd" stroke-width="1"/>
+      <path id="Path_77084" data-name="Path 77084" d="M2587.629,166.645v455" transform="translate(-1985.629 -0.645)" fill="none" stroke="#ddd" stroke-width="1"/>
+      <g id="Rectangle_22424" data-name="Rectangle 22424" transform="translate(536 308)" fill="#fbfbfe" stroke="#ddd" stroke-width="1">
+        <rect width="1552" height="40" stroke="none"/>
+        <rect x="0.5" y="0.5" width="1551" height="39" fill="none"/>
+      </g>
+      <g id="Rectangle_22425" data-name="Rectangle 22425" transform="translate(536 542)" fill="#fbfbfe" stroke="#ddd" stroke-width="1">
+        <rect width="1552" height="40" stroke="none"/>
+        <rect x="0.5" y="0.5" width="1551" height="39" fill="none"/>
+      </g>
+      <g id="Group_53862" data-name="Group 53862" transform="translate(0 103)">
+        <text id="I._Khen_thưởng_cấp_huyện_1_2_3_4_5_II._Khen_thưởng_cấp_tỉnh_6" data-name="I. Khen thưởng cấp huyện
+    1
+    2
+    3
+    4
+    5
+II. Khen thưởng cấp tỉnh 
+    6" transform="translate(552 231)" fill="#182d4b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">I. Khen thưởng cấp huyện</tspan><tspan x="0" y="39" xml:space="preserve">    1</tspan><tspan x="0" y="78" xml:space="preserve">    2</tspan><tspan x="0" y="117" xml:space="preserve">    3</tspan><tspan x="0" y="156" xml:space="preserve">    4</tspan><tspan x="0" y="195" xml:space="preserve">    5</tspan><tspan x="0" y="234">II. Khen thưởng cấp tỉnh </tspan><tspan x="0" y="273" xml:space="preserve">    6</tspan></text>
+        <text id="_Chiến_sĩ_thi_đua_cấp_tỉnh_Tập_thể_lao_động_xuất_sắc_Cờ_thi_đua_cấp_tỉnh_Giấy_khen_của_Chủ_tịch_UBND_Tuyện_Kỷ_niệm_chương_vì_sự_nghiệp_phát_triển_Bằng_khen_của_Thủ_tướng_Chính_phủ_Tổng_số" data-name=" 
+Chiến sĩ thi đua cấp tỉnh
+Tập thể lao động xuất sắc
+Cờ thi đua cấp tỉnh
+Giấy khen của Chủ tịch UBND Tuyện
+Kỷ niệm chương vì sự nghiệp phát triển
+
+Bằng khen của Thủ tướng Chính phủ 
+Tổng số" transform="translate(618 231)" fill="#182d4b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0"> </tspan><tspan x="0" y="39">Chiến sĩ thi đua cấp tỉnh</tspan><tspan x="0" y="78">Tập thể lao động xuất sắc</tspan><tspan x="0" y="117">Cờ thi đua cấp tỉnh</tspan><tspan x="0" y="156">Giấy khen của Chủ tịch UBND Tuyện</tspan><tspan x="0" y="195">Kỷ niệm chương vì sự nghiệp phát triển</tspan><tspan x="0" y="234"></tspan><tspan x="0" y="273">Bằng khen của Thủ tướng Chính phủ </tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="312">Tổng số</tspan></tspan></text>
+        <text id="_2_9_2_8_3_1_25" data-name=" 
+2
+9
+2
+8
+3 
+ 
+1
+25" transform="translate(952 231)" fill="#182d4b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-3.835" y="0"> </tspan><tspan x="-7.547" y="39">2</tspan><tspan x="-7.547" y="78">9</tspan><tspan x="-7.547" y="117">2</tspan><tspan x="-7.547" y="156">8</tspan><tspan x="-11.382" y="195">3 </tspan><tspan x="-3.835" y="234"> </tspan><tspan x="-7.547" y="273">1</tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-16.105" y="312">25</tspan></tspan></text>
+        <text id="_9_2_1_1_12" data-name="
+ 
+9
+2
+1
+
+ 
+1
+12" transform="translate(1034 231)" fill="#182d4b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0"></tspan><tspan x="-3.835" y="39"> </tspan><tspan x="-7.547" y="78">9</tspan><tspan x="-7.547" y="117">2</tspan><tspan x="-7.547" y="156">1</tspan><tspan x="0" y="195"></tspan><tspan x="-3.835" y="234"> </tspan><tspan x="-7.547" y="273">1</tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-16.105" y="312">12</tspan></tspan></text>
+        <text id="_2_7_3_1_13" data-name="
+2 
+
+
+7
+3
+ 
+1
+13" transform="translate(1120 231)" fill="#182d4b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0"></tspan><tspan x="-11.382" y="39">2 </tspan><tspan x="0" y="78"></tspan><tspan x="0" y="117"></tspan><tspan x="-7.547" y="156">7</tspan><tspan x="-7.547" y="195">3</tspan><tspan x="-3.835" y="234"> </tspan><tspan x="-7.547" y="273">1</tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-16.105" y="312">13</tspan></tspan></text>
+        <text id="_2_9_0_6_17" data-name="
+2
+9
+0
+6
+
+ 
+
+17" transform="translate(1204 231)" fill="#182d4b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0"></tspan><tspan x="-7.547" y="39">2</tspan><tspan x="-7.547" y="78">9</tspan><tspan x="-7.547" y="117">0</tspan><tspan x="-7.547" y="156">6</tspan><tspan x="0" y="195"></tspan><tspan x="-3.835" y="234"> </tspan><tspan x="0" y="273"></tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-16.105" y="312">17</tspan></tspan></text>
+        <text id="_2_2_3_1_8" data-name="
+
+
+2
+2
+3
+
+ 1
+8" transform="translate(1680 231)" fill="#182d4b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0"></tspan><tspan x="0" y="39"></tspan><tspan x="0" y="78"></tspan><tspan x="-7.547" y="117">2</tspan><tspan x="-7.547" y="156">2</tspan><tspan x="-7.547" y="195">3</tspan><tspan x="0" y="234"></tspan><tspan x="-11.382" y="273" xml:space="preserve"> 1</tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-8.053" y="312">8</tspan></tspan></text>
+        <text id="_9_1_10" data-name="
+ 
+9
+
+1
+
+ 
+
+10" transform="translate(1356 231)" fill="#182d4b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0"></tspan><tspan x="-3.835" y="39"> </tspan><tspan x="-7.547" y="78">9</tspan><tspan x="0" y="117"></tspan><tspan x="-7.547" y="156">1</tspan><tspan x="0" y="195"></tspan><tspan x="-3.835" y="234"> </tspan><tspan x="0" y="273"></tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-16.105" y="312">10</tspan></tspan></text>
+        <text id="_2_2" data-name="
+ 
+
+2
+
+
+ 
+
+2" transform="translate(1832 231)" fill="#182d4b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0"></tspan><tspan x="-3.835" y="39"> </tspan><tspan x="0" y="78"></tspan><tspan x="-7.547" y="117">2</tspan><tspan x="0" y="156"></tspan><tspan x="0" y="195"></tspan><tspan x="-3.835" y="234"> </tspan><tspan x="0" y="273"></tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-8.053" y="312">2</tspan></tspan></text>
+        <text id="_2_3_5" data-name="
+2 
+
+
+3
+
+ 
+
+5" transform="translate(1480 231)" fill="#182d4b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0"></tspan><tspan x="-11.382" y="39">2 </tspan><tspan x="0" y="78"></tspan><tspan x="0" y="117"></tspan><tspan x="-7.547" y="156">3</tspan><tspan x="0" y="195"></tspan><tspan x="-3.835" y="234"> </tspan><tspan x="0" y="273"></tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-8.053" y="312">5</tspan></tspan></text>
+        <text id="_1_2_1_4" data-name="
+
+
+
+1
+2
+
+1 
+4" transform="translate(1956 231)" fill="#182d4b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0"></tspan><tspan x="0" y="39"></tspan><tspan x="0" y="78"></tspan><tspan x="0" y="117"></tspan><tspan x="-7.547" y="156">1</tspan><tspan x="-7.547" y="195">2</tspan><tspan x="0" y="234"></tspan><tspan x="-11.382" y="273">1 </tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-8.053" y="312">4</tspan></tspan></text>
+        <text id="_2_2-2" data-name="
+
+
+
+2
+
+ 
+
+2" transform="translate(1596 231)" fill="#182d4b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0"></tspan><tspan x="0" y="39"></tspan><tspan x="0" y="78"></tspan><tspan x="0" y="117"></tspan><tspan x="-7.547" y="156">2</tspan><tspan x="0" y="195"></tspan><tspan x="-3.835" y="234"> </tspan><tspan x="0" y="273"></tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-8.053" y="312">2</tspan></tspan></text>
+        <text id="_1_1_2" data-name="
+
+
+
+1
+1
+ 
+
+2" transform="translate(2072 231)" fill="#182d4b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0"></tspan><tspan x="0" y="39"></tspan><tspan x="0" y="78"></tspan><tspan x="0" y="117"></tspan><tspan x="-7.547" y="156">1</tspan><tspan x="-7.547" y="195">1</tspan><tspan x="-3.835" y="234"> </tspan><tspan x="0" y="273"></tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-8.053" y="312">2</tspan></tspan></text>
+        <text id="_100_100_0_75_" data-name="
+100
+100
+0
+75
+
+ 
+
+ " transform="translate(1266 231)" fill="#182d4b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0"></tspan><tspan x="-22.641" y="39">100</tspan><tspan x="-22.641" y="78">100</tspan><tspan x="-7.547" y="117">0</tspan><tspan x="-15.094" y="156">75</tspan><tspan x="0" y="195"></tspan><tspan x="-3.835" y="234"> </tspan><tspan x="0" y="273"></tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-3.862" y="312"> </tspan></tspan></text>
+        <text id="_100_25_100_100_" data-name="
+
+
+100
+25
+100
+
+ 100
+" transform="translate(1742 231)" fill="#182d4b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0"></tspan><tspan x="0" y="39"></tspan><tspan x="0" y="78"></tspan><tspan x="-22.641" y="117">100</tspan><tspan x="-15.094" y="156">25</tspan><tspan x="-22.641" y="195">100</tspan><tspan x="0" y="234"></tspan><tspan x="-26.476" y="273" xml:space="preserve"> 100</tspan><tspan font-family="GoogleSans-Regular, Google Sans"><tspan x="0" y="312"></tspan></tspan></text>
+      </g>
+      <path id="Path_77085" data-name="Path 77085" d="M5516.749,214.635h-1204" transform="translate(-3428.749 -7.635)" fill="none" stroke="#ddd" stroke-width="1"/>
+      <path id="Path_77086" data-name="Path 77086" d="M4480.749,214.635h-168" transform="translate(-3344.749 53.365)" fill="none" stroke="#ddd" stroke-width="1"/>
+    </g>
+    <text id="Năm_2021" data-name="Năm 2021" transform="translate(1370 171)" fill="#2a3958" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-31.838" y="0">Năm 2021</tspan></text>
+  </g>
+</svg>

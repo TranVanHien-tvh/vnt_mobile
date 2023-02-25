@@ -1,0 +1,17 @@
+.ms-dropdown-item {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    // border-bottom: 1px solid $ms-dropdown-border-color;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.ms-dropdown-item:hover {
+    // background-color: $ms-dropdown__item-background--hover;
+    // font-size: $ms-dropdown__item-font-size;
+}
+
+.ms-dropdown-item[disabled='disabled'] {
+    color: #b8bcc3;
+}

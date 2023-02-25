@@ -1,0 +1,131 @@
+.d-inline-block {
+  display: inline-block;
+}
+
+.dropdown-items {
+  padding: 0;
+  margin: 0;
+}
+
+//modify by ĐVThi 03/03/2021 theo định dạng mới của SD Hùng
+.combo-dropdown-panel {
+  // tăng z-index để hiển thị thoải mái trên màn hình báo cáo thay vì z-index: 11100
+  z-index: 100000; // tăng z-index tránh trường hợp bị ẩn popup full màn hình
+  position: absolute;
+  // margin-top: 2px;
+  background-color: #fff;
+  //border: 1px solid #ddd; 
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.24);
+  //Modify by ĐVThi 03/03/2021 nếu nếu control này dùng trên grid thì chiều rộng phải là 48
+  &.grid-editor {
+    ::v-deep.vue-recycle-scroller__item-view {
+      border-bottom: 1px solid #e0e0e0;
+    }
+    ::v-deep.combobox-item {
+      line-height: 48px;
+      height: 48px;
+      padding: 0px 8px;
+      margin: 0 8px!important;
+    }
+
+    ::v-deep.dropdown-header {
+      height: 48px;
+      th {
+        padding: 0px !important;
+        height: 48px !important;
+        z-index: 1;
+        span {
+          width: 100px;
+          text-align: left;
+          padding-left: 10px;
+        }
+      }
+    }
+    // ::v-deep.dropdown-header-container {
+    //   height: 48px;
+    //   border-bottom: 1px solid #e0e0e0;
+    //   padding: 0 8px;
+    // }
+  }
+  .dropdown-table {
+    // table-layout: fixed;
+    border-collapse: collapse;
+    // width: -webkit-fill-available;
+    width: 100%;
+    tr{
+      border-bottom: 1px solid #ddd;
+      &:last-child{
+        border-bottom: none !important;
+      }
+    }
+  }
+  .dropdown-header {
+    border-bottom: 1px solid #ddd;
+    th {
+      padding: 12px 10px;
+      z-index: 1;
+    //   height: 33px;
+      background: #f5f5f5;
+      position: sticky;
+      top: 0;
+      text-align: left;
+    }
+  }
+  .dropdown-body-container {
+    max-height: 198px;
+    
+  }
+  .dropdown--loading {
+    height: 80px;
+    position: relative;
+    .loading {
+      width: 32px;
+      height: 38px;
+      left: calc(50% - 27px);
+      top: 20px;
+      background: none;
+    }
+  }
+  .no-data-display {
+    .no-data-display__text {
+      height: 38px;
+      line-height: 36px;
+      padding: 0 10px;
+      text-align: center;
+      color: $primary;
+      cursor: pointer;
+    }
+  }
+  .com-bottom-button {
+    display: table-cell;
+    padding: 0 12px 0 34px;
+    position: relative;
+    cursor: pointer;
+    .mi {
+      position: absolute;
+      left: 10px;
+      top: 2px;
+    }
+    .text {
+      display: inline-block;
+      color: #35bf22;
+    }
+    &:not(:last-child):after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      height: 18px;
+      width: 1px;
+      background: #b9bec5;
+      right: 0;
+      top: 2px;
+    }
+  }
+  .btn-add-menu {
+    padding: 6px 2px;
+    background: #ebedf0;
+    margin: 0 1px 1px;
+  }
+}

@@ -1,0 +1,86 @@
+@import "@/assets/scss/_variables.scss";
+/*scroll trên firefox*/
+.scroller {
+  overflow: auto;
+  scrollbar-color: $scroll-color $scroll-bg;
+  scrollbar-width: thin;  
+  z-index: 1;
+  &:hover {
+    scrollbar-color: $scroll-hover-color;
+  }
+  &:active {
+    scrollbar-color: $scroll-active-color;
+  }
+}
+
+.scroller::-webkit-scrollbar {
+  width: $scroll-size-big;
+  height: $scroll-size-big;
+  &:hover {
+    width: $scroll-size-big;
+    height: $scroll-size-big;
+    border-radius: $scroll-radius-big;
+  }
+  &:active {
+    width: $scroll-size-big;
+    height: $scroll-size-big;
+    border-radius: $scroll-radius-big;
+  }
+}
+
+.scroller::-webkit-scrollbar-track-piece {
+  background-color: $scroll-bg;
+  width: $scroll-size-big;
+  border-radius: $scroll-radius;
+  &:hover {
+    width: $scroll-size-big;
+    border-radius: $scroll-radius-big;
+  }
+  &:active {
+    width: $scroll-size-big;
+    border-radius: $scroll-radius-big;
+  }
+}
+
+.scroller::-webkit-scrollbar-thumb:vertical {
+  height: $scroll-size;
+  background-color: $scroll-color;
+  width: $scroll-size;
+
+  &:hover {
+    background-color: $scroll-hover-color;
+    height: $scroll-size-big;
+    width: $scroll-size-big;
+  }
+  &:active {
+    background-color: $scroll-active-color;
+    height: $scroll-size-big;
+    width: $scroll-size-big;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: $scroll-size-big;
+  height: $scroll-size-big;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $scroll-bg;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $scroll-color;
+  width: $scroll-size-big;
+  height: $scroll-size-big;
+  border-radius: $scroll-radius;
+
+  &:hover {
+    background: $scroll-hover-color;
+  }
+  &:active {
+    background: $scroll-active-color;
+  }
+}

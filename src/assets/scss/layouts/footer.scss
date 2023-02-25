@@ -1,0 +1,31 @@
+@import "@/assets/scss/_variables.scss";
+
+.vnt-footer {
+    background-image: url("~@/assets/images/footer/Frame_1203.png");
+    // height: 388px;
+    color: #FFFFFF;
+    li {
+        text-align: left;
+    }
+}
+
+.container {
+    border-bottom: solid 1px;
+}
+
+.footer-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    text-align: left;
+}
+.footer-content {
+    font-size: 18px;
+}
+
+.google-icon {
+    margin-right: 30px;
+}
+.footer-session {
+    margin-top: 15px;
+}

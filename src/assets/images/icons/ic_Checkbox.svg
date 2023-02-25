@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="ic_Checkbox" transform="translate(-131 -299)">
+    <g id="Group_46523" data-name="Group 46523">
+      <g id="Rectangle_22935" data-name="Rectangle 22935" transform="translate(134 302)" fill="#fff" stroke="#14aa8a" stroke-width="2">
+        <rect width="18" height="18" rx="3" stroke="none"/>
+        <rect x="1" y="1" width="16" height="16" rx="2" fill="none"/>
+      </g>
+      <g id="_24px_d-check" data-name="24px_d-check" transform="translate(134 301)">
+        <g id="Group_46512" data-name="Group 46512" transform="translate(6 8)">
+          <path id="Path_84535" data-name="Path 84535" d="M6,10l2,2,4-4" transform="translate(-6 -8)" fill="none" stroke="#14aa8a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_22948" data-name="Rectangle 22948" width="24" height="24" transform="translate(131 299)" fill="none" opacity="0"/>
+  </g>
+</svg>

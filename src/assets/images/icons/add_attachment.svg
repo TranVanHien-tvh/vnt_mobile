@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="336" height="110.74" viewBox="0 0 336 110.74">
+  <g id="Group_50007" data-name="Group 50007" transform="translate(-331 -484.26)">
+    <text id="Hỗ_trợ_định_dạng_.xls_.xlsx_và_kích_thước_tối_đa_5_MB" data-name="Hỗ trợ định dạng *.xls, *.xlsx và kích thước tối đa 5 MB" transform="translate(499 591)" fill="#707070" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-167.005" y="0">Hỗ trợ định dạng *.xls, *.xlsx và kích thước tối đa 5 MB</tspan></text>
+    <text id="Kéo_thả_tệp_vào_đây_hoặc_nhấn_để_chọn_tệp" data-name="Kéo thả tệp vào đây hoặc nhấn để chọn tệp" transform="translate(499 570)" fill="#182d4b" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-134.702" y="0">Kéo thả tệp vào đây hoặc nhấn để chọn tệp</tspan></text>
+    <g id="Group_43339" data-name="Group 43339" transform="translate(-5540.637 118)">
+      <path id="Path_59387" data-name="Path 59387" d="M57.334,22.482v34.1a3.679,3.679,0,0,1-3.811,3.532H20.07a3.679,3.679,0,0,1-3.811-3.532V12.663A3.679,3.679,0,0,1,20.07,9.131H43.988" transform="translate(5998.378 358.129)" fill="none" stroke="#2979ff" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_59388" data-name="Path 59388" d="M60,9.131" transform="translate(5991.897 358.129)" fill="none" stroke="#03ae66" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_1033" data-name="Line 1033" x2="12.556" transform="translate(6020.157 392.667)" fill="none" stroke="#2979ff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_1034" data-name="Line 1034" x2="17.322" transform="translate(6020.157 401.333)" fill="none" stroke="#2979ff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_1035" data-name="Line 1035" x2="21.753" transform="translate(6020.157 409.889)" fill="none" stroke="#2979ff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      <g id="Group_26925" data-name="Group 26925" transform="translate(6035.861 395)">
+        <circle id="Ellipse_462" data-name="Ellipse 462" cx="14" cy="14" r="14" transform="translate(0 0)" fill="#dfebff"/>
+        <circle id="Ellipse_463" data-name="Ellipse 463" cx="14" cy="14" r="14" transform="translate(0 0)" fill="none" stroke="#2979ff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        <g id="Group_26924" data-name="Group 26924" transform="translate(8.537 6.645)">
+          <line id="Line_1036" data-name="Line 1036" y1="13.097" transform="translate(5.463)" fill="none" stroke="#2979ff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Path_59389" data-name="Path 59389" d="M51.2,60.331l5.481,5.481,5.445-5.445" transform="translate(-51.196 -51.101)" fill="none" stroke="#2979ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <path id="Path_59390" data-name="Path 59390" d="M48.761,9.152v9.671a3.693,3.693,0,0,0,3.694,3.694h9.671Z" transform="translate(5993.563 358.126)" fill="#2979ff" opacity="0.15"/>
+      <path id="Path_59391" data-name="Path 59391" d="M52.87,8.826" transform="translate(5992.954 358.174)" fill="none" stroke="#03ae66" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_59392" data-name="Path 59392" d="M48.761,9.152v9.671a3.693,3.693,0,0,0,3.694,3.694h9.671Z" transform="translate(5993.563 358.126)" fill="none" stroke="#2979ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <g id="Group_26927" data-name="Group 26927" transform="translate(6019.502 373.036)">
+        <g id="Group_26926" data-name="Group 26926" transform="translate(0 0.055)">
+          <circle id="Ellipse_464" data-name="Ellipse 464" cx="4.685" cy="4.685" r="4.685" fill="#dfebff" style="isolation: isolate"/>
+        </g>
+        <circle id="Ellipse_465" data-name="Ellipse 465" cx="4.685" cy="4.685" r="4.685" transform="translate(0)" fill="none" stroke="#2979ff" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

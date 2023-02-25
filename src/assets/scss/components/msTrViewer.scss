@@ -1,0 +1,394 @@
+.multiple-cell {
+  text-align: center;
+  position: sticky;
+  position: -webkit-sticky;
+  left: 0;
+  background-color: $white;
+}
+
+.ms-td {
+  padding: 0 16px;
+  height: 40px;
+  vertical-align: middle;
+  background-color: $white;
+  cursor: pointer;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  &.td-config-column {
+    width: 35px;
+    padding-right: 0px;
+    padding-left: 0px;
+    left: 0px;
+    position: sticky;
+    position: -webkit-sticky;
+    .config-column-empty-box{
+      height: 16px;
+      width: 16px;
+    }
+  }
+  &.blue-text{
+    color: #2979FF;
+  } 
+  &.big-row{
+    height: 64px!important;
+  }
+  div{
+    line-height: 1.5;
+  }
+  .text-overflow{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  // .text-overflow:hover{
+  //   text-overflow: clip;
+  //   white-space: normal;
+  //   word-break: break-all;
+  //   padding: 10px 0px;
+  // }
+  ::v-deep.ms-editor-text {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    .float-right{
+      margin-left: auto;
+      float: right;
+    }
+    .mi-icon-error{
+      margin: 5px 6px 0 0;
+      cursor: pointer;
+    }
+  }
+}
+
+.ms-tr {
+  position: relative;
+  &:focus {
+    outline: none;
+  }
+  &:not(.loading):hover td {
+    background-color: $ms-grid-row-hover-bg;
+
+    &.multiple-cell {
+      background-color: $ms-grid-row-hover-bg;
+    }
+  }
+
+  &.row-selected td {
+    background-color: $ms-grid-row-selected-bg;
+
+    &.multiple-cell {
+      background-color: $ms-grid-row-selected-bg;
+    }
+  }
+  
+  & td:last-of-type{
+    border-right: none;
+  }
+
+  &.multi-row-selected td {
+    background-color: $ms-grid-row-selected-bg;
+
+    &.multiple-cell {
+      background-color: $ms-grid-row-selected-bg;
+    }
+  }
+  &:not(.loading).row-selected:hover{
+    td {
+      background-color: $ms-grid-row-hover-and-selected-bg !important;
+      &.multiple-cell {
+        background-color: $ms-grid-row-hover-and-selected-bg !important;
+      }
+    }
+    .row-actions{
+      background: $ms-grid-row-hover-and-selected-bg !important;
+    }
+  }
+}
+
+.ms-tr:not(.action-hover) .ms-td .text-overflow{
+  width: 100% !important;
+}
+
+
+.row-actions {
+  position: absolute;
+  height: 38px;
+  background: $ms-grid-row-hover-bg;
+  white-space: nowrap;
+  padding-right: 10px;
+  display: flex;
+  z-index: 5; 
+
+  &.row-actions-big-row{
+    // margin-top: 14px;
+  }
+
+  .item {
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-left: 4px;
+    ::v-deep.popover{
+      .trigger{
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+      }
+    }
+  }
+
+  // .icon24 {
+  //   margin-top: 12px;
+  //   margin-left: 8px;
+  // }
+}
+
+.checkbox {
+  .checked {
+    display: block;
+    margin: 0 auto;
+    width: 24px;
+    height: 1px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      height: 24px;
+      width: 24px;
+      top: -12px;
+      left: calc(50% - 12px);
+      background: transparent url($ms-image-sprites) no-repeat -192px -23px;
+    }
+  }
+}
+.ms-tr {
+  &.row-editor {
+    .ms-td {
+        .ms-cell-editor {
+          width: 100%;
+        }
+    }
+  }
+}
+.ms-cell-editor {
+  ::v-deep.ms-number-item{
+    width: 100%//inherit;
+  }
+  ::v-deep.ms-input-item{
+    width: 100%;
+  }
+}
+
+
+// .ms-tr {
+//     .ms-td {
+//         border-left: $ms-grid__border-left--size dotted $grey;
+//         border-bottom: 1px dotted $grey;
+//         height: $ms-grid__line-height;
+//         background: #fff;
+//         padding: $ms-grid__padding-y $ms-grid__padding-x;
+//         // font-size: $font-size-body;
+//     }
+//     &.row-selected {
+//         .ms-td {
+//             background: $ms-grid__selected--item-color !important;
+//         }
+//         &.action-pointer {
+//             cursor: pointer;
+//         }
+//     }
+//     &.row-editor {
+//         .ms-td {
+//             .ms-cell-editor {
+//                 width: 100%;
+//                 height: 100%;
+//                  ::v-deep .ms-editor-text {
+//                     width: 100%;
+//                     height: 100%;
+//                     border-radius: $input-border-radius;
+//                     // border: 1px solid $input-normal-border-color;
+//                     // background: $input-normal-bg-color;
+//                     align-items: center;
+//                     display: flex;
+//                     &.edit-disabled {
+//                         background: $grey-light;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+//     .ms-td:first-child {
+//         border-left: none;
+//     }
+//     .multiple-cell {
+//         position: sticky;
+//         left: 0;
+//         width: 40px;
+//         max-width: 40px;
+//         min-width: 40px;
+//         border-left: $ms-grid__border-left--size dotted $grey;
+//     }
+//     .widget-item {
+//         position: sticky;
+//         right: 0;
+//         box-shadow: 0 0 0 1px transparent;
+//         border-left: $ms-grid__border-left--size dotted $grey;
+//     }
+// }
+
+// .ms-tr:hover {
+//     .ms-td {
+//         background: #f3f8f8;
+//     }
+// }
+
+// .ms-tr {
+//     &.shimmer:hover {
+//         .ms-td {
+//             background: $white !important;
+//         }
+//     }
+// }
+
+// .serial {
+//     width: 45px;
+//     min-width: 45px;
+//     max-width: 45px;
+//     position: sticky;
+//     left: 0;
+//     border-right: $ms-grid__border-left--size dotted $grey;
+// }
+
+// .shimmer-size {
+//     height: 45px;
+// }
+
+// .shimmer-cell {
+//     width: 100%;
+//     height: 16px;
+//     background: linear-gradient( to right, $grey-light 0%, red 20%, $grey-light 25%);
+//     animation: placeholderShimmer 2s linear infinite normal forwards;
+// }
+
+// @for $i from 1 through 15 {
+//     $x: (90 - ($i * 5)) + '%';
+//     $y: ($x + 5) + '%';
+//     .shimmer-cell-#{$i} {
+//         background: linear-gradient( to right, $grey-light 0%, $grey-smoke #{$x}, $grey-light #{$y}, $grey-light 100%, );
+//     }
+// }
+
+// @keyframes placeholderShimmer {
+//     0% {
+//         background-position: -100vw 0;
+//     }
+//     100% {
+//         background-position: 100vw 0;
+//     }
+// }
+
+// .shimmer {
+//     /* the shimmer magic */
+//     background: -webkit-gradient(linear, left top, right top, from($grey-light), to($grey-light), color-stop(.5, $grey-smoke));
+//     background: -moz-gradient(linear, left top, right top, from($grey-light), to($grey-light), color-stop(.5, $grey-smoke));
+//     background: gradient(linear, left top, right top, from($grey-light), to($grey-light), color-stop(.5, $grey-smoke));
+//     -webkit-background-size: 125px 100%;
+//     -moz-background-size: 125px 100%;
+//     background-size: 125px 100%;
+//     // animation: shimmer 2s linear infinite normal forwards;
+//     -webkit-animation-name: shimmer;
+//     -moz-animation-name: shimmer;
+//     -webkit-animation-name: shimmer;
+//     animation-name: shimmer;
+//     -webkit-animation-duration: 2s;
+//     -moz-animation-duration: 2s;
+//     -webkit-animation-duration: 2s;
+//     animation-duration: 2s;
+//     -webkit-animation-iteration-count: infinite;
+//     -moz-animation-iteration-count: infinite;
+//     -webkit-animation-iteration-count: infinite;
+//     animation-iteration-count: infinite;
+//     background-repeat: no-repeat;
+//     background-position: 0 0;
+//     background-color: $grey-light;
+//     width: 100%;
+//     height: 16px;
+// }
+
+// @-moz-keyframes shimmer {
+//     0% {
+//         background-position: top left;
+//     }
+//     100% {
+//         background-position: top right;
+//     }
+// }
+
+// @-webkit-keyframes shimmer {
+//     0% {
+//         background-position: top left;
+//     }
+//     100% {
+//         background-position: top right;
+//     }
+// }
+
+// @-o-keyframes shimmer {
+//     0% {
+//         background-position: top left;
+//     }
+//     100% {
+//         background-position: top right;
+//     }
+// }
+
+// @-ms-keyframes shimmer {
+//     0% {
+//         background-position: top left;
+//     }
+//     100% {
+//         background-position: top right;
+//     }
+// }
+
+// @keyframes shimmer {
+//     0% {
+//         background-position: top left;
+//     }
+//     100% {
+//         background-position: top right;
+//     }
+// }
+
+// .ms-tr {
+//     &.parent {
+//         font-weight: 700;
+//     }
+// }
+
+// @for $i from 1 through 10 {
+//     $x: ($i - 1) * 10 + 10;
+//     .level-#{$i} {
+//         padding-left: #{$x}px !important;
+//     }
+// }
+
+// .sticky-left-45 {
+//     position: sticky;
+//     left: 45px;
+//     z-index: 1;
+//     border-right: 1px dotted $grey;
+// }

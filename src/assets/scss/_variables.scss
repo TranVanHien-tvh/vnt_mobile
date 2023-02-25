@@ -1,0 +1,467 @@
+/*==================================
+    Image
+===================================*/
+$ms-image-sprites: "~@/assets/images/icons/sprites.svg";
+$ms-image-loading: "~@/assets/images/icons/loading.svg";
+$ms-image-CeGo_Sprites: "~@/assets/images/icons/CeGo_Sprites.svg";
+$ms-image-audit: "~@/assets/images/bg_QuyTrinh.svg";
+$ms-image-ic_Text: "~@/assets/images/icons/ic_Text.svg";
+$ms-image-ic_Number: "~@/assets/images/icons/ic_Number.svg";
+$ms-image-ic_Decimal: "~@/assets/images/icons/ic_Decimal.svg";
+$ms-image-ic_Textarea: "~@/assets/images/icons/ic_Textarea.svg";
+$ms-image-ic_Checkbox: "~@/assets/images/icons/ic_Checkbox.svg";
+$ms-image-ic_Combo: "~@/assets/images/icons/ic_Combo.svg";
+$ms-image-ic_Date: "~@/assets/images/icons/ic_Date.svg";
+$ms-image-ic_Togger: "~@/assets/images/icons/ic_toggle.svg";
+$ms-image-ic_arrow_color_right: "~@/assets/images/icons/ic_arrow_color_right.svg";
+$ms-image-ic_arrow_black_right: "~@/assets/images/icons/ic_arrow_black_right.svg";
+$ms-image-ic_checkbox_active: "~@/assets/images/icons/ic_checkbox_active.svg";
+$ms-image-ic_checkbox_inactive: "~@/assets/images/icons/ic_checkbox_inactive.svg";
+$ms-image-ic_checkbox_temp: "~@/assets/images/icons/CeGo_Sprites.svg";
+$ms-image-ic_checkbox_hover: "~@/assets/images/icons/ic_checkbox_hover.svg";
+$ms-image-ic_checkbox_disabled_active: "~@/assets/images/icons/ic_checkbox_disabled_active.svg";
+$ms-image-ic_checkbox_disabled: "~@/assets/images/icons/ic_checkbox_disabled.svg";
+$ms-image-ic_radio_active: "~@/assets/images/icons/ic_radio_active.svg";
+$ms-image-ic_radio_inactive: "~@/assets/images/icons/ic_radio_inactive.svg";
+$ms-image-ic_radio_hover: "~@/assets/images/icons/ic_radio_hover.svg";
+$ms-image-ic_radio_disabled_active: "~@/assets/images/icons/ic_radio_disabled_active.svg";
+$ms-image-ic_radio_disabled: "~@/assets/images/icons/ic_radio_disabled.svg";
+$ms-image-ic_delete_gray: "~@/assets/images/icons/ic_delete_gray.svg";
+$ms-image-ic_add_blue: "~@/assets/images/icons/add_blue.svg";
+$ms-image-ic_user_plus_white:  "~@/assets/images/icons/ic_user_plus.svg";
+$ms-image-ic_icon-note: "~@/assets/images/icons/info-circle.svg";
+$ms-image-ic_attachment: "~@/assets/images/icons/attachment.svg";
+$ms-image-ic_filter_active: "~@/assets/images/icons/ic_filter_active.svg";
+$ms-image-ic_empty_grid: "~@/assets/images/icons/ic_empty_grid.svg";
+$ms-image-sent: "~@/assets/images/icons/icon_sent.svg";
+$ms-image-refresh: "~@/assets/images/icons/icon_refresh.svg";
+$ms-image-sent-white: "~@/assets/images/icons/icon_sent_white.svg";
+$ms-image-ic_blue_check: "~@/assets/images/icons/blue_check.svg";
+$ms-image-ic_blue_uncheck: "~@/assets/images/icons/blue_uncheck.svg";
+$ms-image-ic_replay_blue: "~@/assets/images/icons/ic_replay_blue.svg";
+$ms-image-ic_filter: "~@/assets/images/icons/ic_filter_column.svg";
+$ms-image-ic_check_gray: "~@/assets/images/icons/ic_check_gray.svg";
+$ms-image-ic_trash: "~@/assets/images/icons/ic_trash_16.svg";
+$ms-image-ic_chevron-up-blue: "~@/assets/images/icons/ic_chevron-up-blue.svg";
+$ms-image-ic_chevron-down-blue: "~@/assets/images/icons/ic_chevron-down-blue.svg";
+$ms-image-ic_check_green: "~@/assets/images/icons/ic_check_green.svg";
+$ms-image-ic_uncheck_green: "~@/assets/images/icons/ic_uncheck_green.svg";
+$ms-image-ic_uncheck: "~@/assets/images/icons/ic_uncheck.svg";
+$ms-image-ic_check: "~@/assets/images/icons/ic_check.svg";
+$ms-image-ic_cancel: "~@/assets/images/icons/ic_cancel.svg";
+$ms-image-ic_send-black: "~@/assets/images/icons/ic_send-black.svg";
+$ms-image-ic_view-white: "~@/assets/images/icons/ic_view-white.svg";
+$ms-image-ic_checkbox_gray: "~@/assets/images/icons/checkbox_grey.svg";
+$ms-image-ic_export-black: "~@/assets/images/icons/ic_export-black.svg";
+$ms-image-ic_export-white: "~@/assets/images/icons/ic_export-white.svg";
+$ms-image-ic_add_primary_v2: "~@/assets/images/icons/ic_add_primary_v2.svg";
+$ms-image-ic_minus: "~@/assets/images/icons/ic_minus.svg";
+$ms-image-ic_view: "~@/assets/images/icons/ic_view.svg";
+$ms-image-ic_export_excel: "~@/assets/images/icons/ic_export_excel.svg";
+$ms-image-ic_paper_plane: "~@/assets/images/icons/ic_paper_plane.svg";
+$ms-image-ic_view_primary: "~@/assets/images/icons/ic_view_primary.svg";
+$ms-image-ic_download_blue: "~@/assets/images/icons/ic_download_blue.svg";
+$ms-image-ic_copy-data: "~@/assets/images/icons/ic_copy-data.svg";
+$ms-image-ic_link: "~@/assets/images/icons/ic_link.svg";
+$ms-image-ic_info_24: "~@/assets/images/icons/ic_info_24.svg";
+$ms-image-agreement-license: "~@/assets/images/icons/img_agreement.svg";
+$ms-image-ic_circle: "~@/assets/images/icons/icon_circle.svg";
+// Menu icon
+$ms-image-ic_dashboard: "~@/assets/images/icons/ic_dashboard.svg";
+$ms-image-ic_employee: "~@/assets/images/icons/users_orange.svg";
+$ms-image-ic_emulation: "~@/assets/images/icons/ic_emulation.svg";
+$ms-image-ic_reward: "~@/assets/images/icons/ic_reward.svg";
+$ms-image-ic_report: "~@/assets/images/icons/ic_report.svg";
+$ms-image-ic_category: "~@/assets/images/icons/ic_category.svg";
+$ms-image-ic_setting: "~@/assets/images/icons/ic_setting.svg";
+$ms-image-ic_profile: "~@/assets/images/icons/ic_profile.svg";
+$ms-image-ic_movement: "~@/assets/images/icons/movement.svg";
+$ms-image-ic_guide: "~@/assets/images/icons/ic_guide.svg";
+$ms-image-ic_search: "~@/assets/images/icons/ic_search.svg";
+
+$ms-image-ic_dashboard_default: "~@/assets/images/icons/ic_dashboard_default.svg";
+$ms-image-ic_emulation_default: "~@/assets/images/icons/ic_emulation_default.svg";
+$ms-image-ic_reward_default: "~@/assets/images/icons/ic_reward_default.svg";
+$ms-image-ic_report_default: "~@/assets/images/icons/ic_report_default.svg";
+$ms-image-ic_category_default: "~@/assets/images/icons/ic_category_default.svg";
+$ms-image-ic_setting_default: "~@/assets/images/icons/ic_setting_default.svg";
+$ms-image-ic_emulation_movement: "~@/assets/images/icons/ic_emulation_movement.svg";
+$ms-image-ic_employee_default: "~@/assets/images/icons/ic_employee.svg";
+$ms-image-ic_profile_default: "~@/assets/images/icons/ic_profile_default.svg";
+$ms-image-ic_movement_default: "~@/assets/images/icons/movement_default.svg";
+$ms-image-ic_send_motive: "~@/assets/images/icons/ic_send_motive.svg";
+$ms-image-ic_expand_group_blue: "~@/assets/images/icons/ic_expand_group_blue.svg";
+$ms-image-ic_collapse_group_blue: "~@/assets/images/icons/ic_collapse_group_blue.svg";
+$ms-image-ic_guide_default: "~@/assets/images/icons/ic_guide_default.svg";
+$ms-image-ic_search_default: "~@/assets/images/icons/ic_search_default.svg";
+$ms-image-ic_infor_agreement: "~@/assets/images/icons/info-circle.svg";
+$ms-image-ic_add_user: "~@/assets/images/icons/add-user.svg";
+$ms-image-ic_star: "~@/assets/images/icons/star.svg";
+$ms-image-ic_earth: "~@/assets/images/icons/ic_earth.svg";
+$ms-image-ic_add_user1: "~@/assets/images/icons/vnt/add-user1.svg";
+
+// Logo
+$ms-logo-amsact: "~@/assets/images/logo/Amis_ke_toan.svg";
+$ms-logo-amshr: "~@/assets/images/logo/Amis_nhan_su.svg";
+$ms-logo-amsem: "~@/assets/images/logo/Amis_nhan_vien.svg";
+$ms-logo-connectapi: "~@/assets/images/logo/API.svg";
+$ms-logo-cego: "~@/assets/images/logo/ic_cegoLogo.svg";
+$ms-logo-cego-full: "~@/assets/images/logo/ic_cego_logo_full.svg";
+$ms-logo-cego-new: "~@/assets/images/logo/ic_cegoLogo_new.svg";
+$ms-logo-misa-company: "~@/assets/images/logo/ic_cegoLogo_new.svg";
+$ms-logo-misa: "~@/assets/images/logo/ic_logo_misa.svg";
+// Background
+$ms-login-bg: "~@/assets/images/pages/bg_login_new.png";
+$ms-login-bg-left: "~@/assets/images/pages/bg_login_left.png";
+
+$ms-clear-input: "~@/assets/images/icons/vnt/uiw_circle-close.png";
+$ms-image-ic_user_default: "~@/assets/images/icons/vnt/bx_bxs-user.svg";
+$ms-image-ic_email_default: "~@/assets/images/icons/vnt/eva_email-outline.svg";
+$ms-image-ic_male: "~@/assets/images/icons/vnt/icon-park-outline_male.png";
+$ms-image-ic_female: "~@/assets/images/icons/vnt/ic_round-female.png";
+$ms-image-ic_follow: "~@/assets/images/icons/vnt/follow.png";
+$ms-image-ic_email: "~@/assets/images/icons/vnt/icon-park_send-email.svg";
+$ms-image-ic_web: "~@/assets/images/icons/vnt/ic_web.svg";
+$ms-image-ic_contact: "~@/assets/images/icons/vnt/ic_contact.svg";
+$ms-image-ic_close: "~@/assets/images/icons/vnt/ep_circle-close-filled.svg";
+$ms-image-ic_add_folder: "~@/assets/images/icons/vnt/add_folder.svg";
+$ms-image-ic_upload_folder: "~@/assets/images/icons/vnt/upload_folder.svg";
+$ms-image-ic_upload_file: "~@/assets/images/icons/vnt/upload_file.svg";
+$ms-image-ic_document: "~@/assets/images/icons/vnt/document.svg";
+$ms-image-ic_excel: "~@/assets/images/icons/vnt/excel.svg";
+$ms-image-ic_logout_white: "~@/assets/images/icons/vnt/logout_white.svg";
+
+
+/*==================================
+    color
+===================================*/
+// $primary: #2979ff;
+$primary: #6477ba;
+
+$secondary: #ffffff;
+$danger: #e61d1d;
+$white: #fff;
+$black: #121212 ;
+$grey: #666666;
+$grey-light: #9e9e9e;
+$grey-smoke: grey;
+$required: #e54848;
+$blue: #2979ff;
+$menu-active: #ff5722;
+$hover-bg: #eff7ff;
+$active-bg: #fbe9e7;
+$hover-and-active-bg: #ffece3;
+
+$ms-primary-background-color: #f4f5f8;
+$orange: #ff5722;
+
+/*==================================
+    Font
+===================================*/
+$font-color: #5C5C5C;
+$font-size: 14px;
+$font-family: "Lato";
+
+/*==================================
+    scroll
+===================================*/
+$scroll-size: 4px;
+$scroll-size-big: 8px;
+$scroll-radius: 2px;
+$scroll-radius-big: 4px;
+$scroll-bg: #fff;
+$scroll-color: #cdd3d6;
+$scroll-hover-color: #9e9e9e;
+$scroll-active-color: $grey;
+
+/*==================================
+    Main
+===================================*/
+// $main-left-menu-width: 204px;
+// $main-left-menu-collapse-width: 56px;
+$main-left-menu-width: 0;
+$main-left-menu-collapse-width: 0;
+$main-transition-time: 0.2s;
+$box-border-radius: 4px;
+$box-box-shadow: 0 0 11px rgba(0, 0, 0, 0.08);
+$main-left-menu-child-item-hover-bg: $hover-bg;
+$main-left-menu-child-item-active-bg: #fbe9e7;
+$main-left-menu-child-item-active-color: $menu-active;
+$main-left-menu-item-active-bg: $active-bg;
+$main-left-menu-item-active-color: $menu-active;
+$main-left-menu-item-hover-bg: $hover-bg;
+$main-left-menu-item-hover-color: $menu-active;
+
+/*=============================
+Button
+===============================*/
+$button-height: 36px;
+$button-width: 80px;
+$button-border-radius: 9px;
+$button-cicrle-border-radius: 16px;
+$button-text-padding: 0 16px;
+$button-icon-margin: -7px 5px;
+$button-disable-opacity: 0.56;
+$button-outline: #a6c7ff auto 1px;
+
+//primary
+$button-primary-color: $white;
+$button-primary-bg: $primary;
+$button-primary-hover-bg: $primary;
+$button-primary-active-bg: $primary;
+
+//secondary
+$button-secondary-border: 1px solid #6477ba;
+$button-secondary-color: #6477ba;
+$button-secondary-bg: $white;
+$button-secondary-hover-bg: #ebebeb;
+$button-secondary-active-bg: $secondary;
+
+//danger
+$button-danger-color: $white;
+$button-danger-bg: #ef5350;
+$button-danger-hover-bg: #d81010;
+$button-danger-active-bg: #c40d0d;
+
+//success
+$button-success-color: $white;
+$button-success-bg: #00C853;
+$button-success-hover-bg: #00C853;
+
+//transparent
+$button-transparent-color: $primary;
+$button-transparent-hover-color: #3cc2a5;
+$button-transparent-active-color: #0f9276;
+
+//primary-outline
+$button-primary-outline-border: 1px solid $primary;
+$button-primary-outline-color: $black;
+$button-primary-outline-bg: $white;
+$button-primary-outline-hover-bg: #ebebeb;
+$button-primary-outline-active-bg: #d8eef2;
+
+//secondary-outline
+$button-secondary-outline-border: 1px solid $primary;
+$button-secondary-outline-color: $primary;
+$button-secondary-outline-bg: $white;
+$button-secondary-outline-hover-bg: #ebebeb;
+$button-secondary-outline-active-bg: $secondary;
+
+//danger-outline
+$button-danger-outline-border: 1px solid $danger;
+$button-danger-outline-color: $danger;
+$button-danger-outline-bg: $white;
+$button-danger-outline-hover-bg: #ffe2e2;
+$button-danger-outline-active-bg: #fbb1b1;
+
+//blue
+$button-blue-border: 1px solid $blue;
+$button-blue-color: $white;
+$button-blue-bg: $blue;
+$button-blue-hover-bg: $blue;
+$button-blue-active-bg: $blue;
+
+//secondary-outline-red
+$button-secondary-outline-red-border: 1px solid $danger;
+$button-secondary-outline-red-color: $danger;
+$button-secondary-outline-red-bg: $white;
+$button-secondary-outline-red-hover-bg: #e8f5f7;
+$button-secondary-outline-red-active-bg: $secondary;
+
+/*=============================
+Badge
+===============================*/
+// rounded
+$badge-rounded-active-bg: #daf7e3;
+$badge-rounded-active-color: #00c853;
+$badge-rounded-inactive-bg: #cbd4dc;
+$badge-rounded-inactive-color: #7b8d9f;
+// text
+$badge-text-active-bg: #ffffff;
+$badge-text-active-color: #00c853;
+$badge-text-inactive-bg: #ffffff;
+$badge-text-inactive-color: #7b8d9f;
+
+/*==================================
+    Input
+===================================*/
+$input-normal-border: 1px solid #e0e0e0;
+// $input-border-radius: 3.5px;
+$input-border-radius: 4px;
+$input-hover-border-color: $primary;
+$input-focus-border-color: $primary;
+$input-error-border-color: $danger;
+$input-disabled-border-color: #e0e0e0;
+$input-disabled-color: $grey;
+$input-disabled-bg: #ebebeb;
+$input-outline: #14aa8a auto 1px;
+
+/*==================================
+    Grid
+===================================*/
+$ms-grid-header-bg: #ffffff;
+$ms-grid-header-color: $black;
+$ms-grid-header-font-weight: 600;
+$ms-grid-row-hover-bg: #fbe9e7;
+$ms-grid-row-selected-bg: #E0EBFF;
+$ms-grid-row-hover-and-selected-bg: #E0EBFF;
+$ms-grid__line-height: 45px; //chiều cao 1 dòng của grid
+$ms-grid__border-left--size: 1px; // độ rộng border left của grid
+$ms-grid__header-color: #fff; //màu của tiêu đề trên grid
+$ms-grid__padding-x: 10px; //padding cell trong grid theo trục x
+$ms-grid__padding-y: 6px; //padding cell grid theo trục y
+$ms-grid__selected--item-color: rgba(246, 247, 248, 1); //Màu của item được chọn
+$ms-grid-cellpadding: 0 16px;
+$ms-grid-cellpadding-editor: 9px 16px;
+$ms-grid-border-color: #ddd;
+$ms-th-grid-border-color: #e0e1ef;
+$ms-td-grid-border-color: #e0e1ef;
+
+/*==================================
+    Grid
+===================================*/
+$popup-shadow: 0 4px 16px rgba(0, 0, 0, 0.24);
+$popup-footer-top-border: 1px solid #e0e0e0;
+$popup-footer-bg: #f5f5f5;
+$popup-title-font-size: 20px;
+
+/*==================================
+    Form
+===================================*/
+$label-color: $grey;
+/*===================================
+Slide detail bên phải
+====================================*/
+$label-grey-color: #707070;
+
+/*==================================
+    Toast
+===================================*/
+$toast-info-bg: #e8f5f7;
+$toast-info-icon-bg: $primary;
+$toast-success-bg: #00c853;
+$toast-success-icon-bg: #00c853;
+$toast-error-bg: #ffe2e2;
+$toast-error-icon-bg: #e61d1d;
+$toast-warning-bg: #fff4e5;
+$toast-warning-icon-bg: #ff9100;
+
+/*==================================
+    switch
+===================================*/
+$switch-width: 31px;
+$switch-height: 16px;
+$switch-icon-size: 14px;
+$switch-bg: #9e9e9e;
+$switch-checked-bg: $primary;
+$switch-disable-opacity: 0.56;
+/*====================================
+Tourguid
+====================================*/
+$border-color: #babec5;
+
+/*================================
+    KÍ TỰ (TYPOGRAPHY)
+==================================*/
+
+$ms-label-function-color: #0075c0; //màu của nút chức năng ở list
+$ms-main__text-color: #111111; //màu chủ yếu của hệ thống
+$ms-mark__text-color: #c00000; //màu chữ của đóng dấu
+$ms-popup__title-size: 24px;
+$ms-popup__title-font-size: 16px;
+$ms-popup__sub-title-font-size: 18px;
+$ms-collapse-sub-title-font-size: 16px;
+$ms-collapse-title-font-size: 20px;
+$ms-report-title-font-size: 16px;
+$ms-report-sub-title-font-size: 12px;
+$ms-report-title-font-weight: 600;
+$ms-grid-data-font-size: 13px; //font-size của dữ liệu grid
+$ms-control-font-size: 13px;
+$ms-font-size-base: 13px;
+$ms-font-weight: bold;
+$ms-font-semi-bold: 600;
+$ms-tab-font-size--disabled: 18px;
+
+/*==================================
+    Tab
+===================================*/
+$ms-tab__item--active-backgroud: #ffffff; //màu nền khi tab được active
+$ms-tab__item--active-text-color: #14aa8a; //màu chữ của tab khi active
+$ms-tab__item--active-border-radius: 30px; //bo tròn viền khi tab được active
+
+/* disabled */
+
+$ms-disabled-opacity: 0.5 !default;
+$ms-disabled-pointer: default !default;
+
+/*==================================
+    Collapse
+===================================*/
+$ms-collapse__label-font-size: 16px; //cỡ font tiêu đề từng phần thu gọn
+
+/*==================================
+    Tree 
+===================================*/
+$ms-arrow-expand: "~@/assets/images/icons/ic_angle-small-right.svg";
+$ms-arrow-collapse: "~@/assets/images/icons/ic_arrow_black_right.svg";
+
+/*==================================
+    Year picker 
+===================================*/
+$ms-year-picker-icon: "~@/assets/images/icons/dropdown_icon.svg";
+/*
+* Config cột cho grid
+*/
+$ms-config-column-icon: "~@/assets/images/icons/ic_config_column.svg";
+$ms-icon-switch-on: "~@/assets/images/icons/ic_switch_on.svg";
+$ms-icon-switch-off: "~@/assets/images/icons/ic_switch_off.svg";
+$ms-icon-drag: "~@/assets/images/icons/icon_drag.svg";
+
+/*
+* icon kéo thả tệp
+*/
+$ms-drag-attachment: "~@/assets/images/icons/add_attachment.svg";
+
+/**
+ * icon thông báo
+ */
+$ms-ic-notify1: "~@/assets/images/icons/ic_notify1_48.svg";
+$ms-ic-notify2: "~@/assets/images/icons/ic_notify2_48.svg";
+$ms-ic-notify3: "~@/assets/images/icons/ic_notify3_48.svg";
+$ms-ic-notify4: "~@/assets/images/icons/ic_notify4_48.svg";
+$ms-ic-notify5: "~@/assets/images/icons/ic_notify5_48.svg";
+
+/** report mask**/
+$ms-report-mask: "~@/assets/images/icons/report-mask.png";
+
+$ms-line-break: "~@/assets/images/icons/vnt/Line 83.png";
+$ms-icon-line: "~@/assets/images/icons/Line 62.svg";
+$ms-icon-group-time: "~@/assets/images/icons/ic_timeline.svg";
+$ms-icon-target: "~@/assets/images/icons/target.svg";
+$ms-icon-v: "~@/assets/images/icons/ic_v.svg";
+$ms-icon-three-dot: "~@/assets/images/icons/ic_three_dot.svg";
+$ms-icon-refer: "~@/assets/images/icons/refer.svg";
+$ms-icon-uncare-act: "~@/assets/images/icons/ic_uncare_act_footer.svg";
+$ms-icon-bi-heart: "~@/assets/images/icons/bi_heart.svg";
+$ms-icon-paper: "~@/assets/images/icons/ic_paper_gray.svg";
+$ms-icon-chat: "~@/assets/images/icons/ic_chat_gray.svg";
+$ms-icon-bell: "~@/assets/images/icons/ic_bell_gray.svg";
+$ms-icon-place: "~@/assets/images/icons/ic_place_act_detail.svg";
+$ms-icon-calendar: "~@/assets/images/icons/ic_calendar_detail_act.svg";
+$ms-icon-act: "~@/assets/images/icons/ic_act_detail.svg";
+$ms-icon-vector: "~@/assets/images/icons/Vector.svg";
+$ms-icon-heart: "~@/assets/images/icons/vnt/ic_heart.svg";
+$ms-icon-sport-red: "~@/assets/images/icons/ic_sport_red.svg";
+$ms-icon-study-red: "~@/assets/images/icons/ic_study_red.svg";
+$ms-icon-puzzle-red: "~@/assets/images/icons/ic_puzzle_red.svg";
+$ms-icon-two-human: "~@/assets/images/icons/ic_two_human.svg";
+$ms-icon-history: "~@/assets/images/icons/ic_history.svg";
+$ms-icon-fluent-star: "~@/assets/images/icons/fluent_star-16-filled.svg";
+$ms-icon-calendar-star: "~@/assets/images/icons/calendar-star.svg";
+$ms-icon-calendar-pencil: "~@/assets/images/icons/calendar-pencil.svg";
+$ms-icon-video-call: "~@/assets/images/icons/icon_video-person-call.svg";
+$ms-icon-web: "~@/assets/images/icons/icon_web.svg";
+$ms-icon-park-mail: "~@/assets/images/icons/icon-park_send-email.svg";
+$ms-icon-folder-save: "~@/assets/images/icons/ic_folder_save.svg";
+$ms-icon-edit-circle: "~@/assets/images/icons/ic_edit_circle.svg";
+$ms-icon-log-out: "~@/assets/images/icons/ic_log_out.svg";

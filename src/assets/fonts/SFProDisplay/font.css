@@ -1,0 +1,76 @@
+@font-face {
+  font-family: SFProDisplay;
+  src: local("SF-Pro-Display-Regular"),
+    url("~@/assets/fonts/SFProDisplay/SF-Pro-Display-Regular.woff")
+      format("truetype");
+}
+@font-face {
+  font-family: SFProDisplay;
+  src: local("SF-Pro-Display-Bold"),
+    url("~@/assets/fonts/SFProDisplay/SF-Pro-Display-RegularItalic.woff")
+      format("truetype");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: SFProDisplay;
+  src: local("SF-Pro-Display-Light"),
+    url("~@/assets/fonts/SFProDisplay/SF-Pro-Display-Light.woff")
+      format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: SFProDisplay;
+  src: local("SF-Pro-Display-Light"),
+    url("~@/assets/fonts/SFProDisplay/SF-Pro-Display-LightItalic.woff")
+      format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: SFProDisplay;
+  src: local("SF-Pro-Display-Semi"),
+    url("~@/assets/fonts/SFProDisplay/SF-Pro-Display-Semibold.woff")
+      format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: SFProDisplay;
+  src: local("SF-Pro-Display-Semi"),
+    url("~@/assets/fonts/SFProDisplay/SF-Pro-Display-SemiboldItalic.woff")
+      format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: SFProDisplay;
+  src: local("SF-Pro-Display-Bold"),
+    url("~@/assets/fonts/SFProDisplay/SF-Pro-Display-Bold.woff")
+      format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: SFProDisplay;
+  src: local("SF-Pro-Display-Bold"),
+    url("~@/assets/fonts/SFProDisplay/SF-Pro-Display-BoldItalic.woff")
+      format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: SFProDisplay;
+  src: local("SF-Pro-Display-Heavy"),
+    url("~@/assets/fonts/SFProDisplay/SF-Pro-Display-Heavy.woff")
+      format("truetype");
+  font-weight: 900;
+}
+@font-face {
+  font-family: SFProDisplay;
+  src: local("SF-Pro-Display-Heavy"),
+    url("~@/assets/fonts/SFProDisplay/SF-Pro-Display-HeavyItalic.woff")
+      format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}

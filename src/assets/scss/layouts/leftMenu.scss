@@ -1,0 +1,383 @@
+@import "@/assets/scss/_variables.scss";
+
+.left-container {
+  display: block;
+  float: left;
+  width: 100%;
+  height: calc(100% -  40px);
+  overflow: auto;
+}
+
+.menu-container {
+  height: 100%;
+  position: relative;
+  color: white;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+
+.toggle-button {
+  position: absolute;
+  bottom: 18px;
+  margin: 0 8px 0 8px;
+  width: 92%;
+  border-radius: 8px;
+  height: 40px;
+  line-height: 40px;
+  background: #EDF1F5;
+  &:before {
+    content: "";
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 16px;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background: transparent url($ms-image-ic_Togger) no-repeat;
+    transform: rotate(0deg);
+    transition-duration: 0.4s;
+  }
+  &.hiden::before{
+    transform: rotate(180deg) !important;
+    margin-left: 10px;
+  }
+  &.hiden {
+    width: 75%;
+  }
+  .toggle-title {
+    position: absolute;
+  }
+}
+
+.toggle-advertisement{
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  width: 100%;
+  height: 24px;
+  text-align: center;
+  transition: height 0.5s ease;
+  margin-bottom: 0;
+  &.show{
+    height: 102px;
+  }
+  .icon-button-toggle{
+    margin: auto;
+    background: #fff;
+    border-radius: 50%;
+    top: 10px;
+    &::before{
+      background-position: -144px -51px;
+    }
+    &.hide::before{
+      transform: rotate(180deg);
+      background-position: -144px -46px;
+    }
+  }
+  .content{
+
+    background: #fff;
+    border-radius: 12px 12px 0 0;
+    width: 90%;
+    margin: auto;
+    padding: 12px;
+    padding-left: 15px;
+    height: 78px;
+    .item{
+      transition: opacity 0.5s ease;
+      opacity: 0;
+    }
+    &.show{
+      .item{
+        opacity: 1;
+      }
+    }
+    .d-flex{
+      display: flex;
+    }
+    .value{
+      font-weight: 600;
+      padding-left: 3px;
+    }
+    .info-user{
+      float: left;
+      cursor: pointer;
+      color: #2C8EFF;
+    }
+    .pd-3{
+      padding-top: 3px;
+    }
+  }
+}
+
+.logo-box {
+  height: 56px;
+  line-height: 56px;
+}
+
+.app-menu #AMIS_Launcher{
+  width: 56px;
+  height: 100%;
+  position: relative;
+  &:hover {
+    cursor: pointer;
+  }
+  &::before {
+    content: "";
+    height: 18px;
+    width: 18px;
+    background: transparent url($ms-image-sprites) no-repeat -195px -3px;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+  }
+}
+
+.logo {
+  display: block;
+  margin-top: 10px;
+  &::before {
+    content: "";
+    display: block;
+    width: 110px;
+    height: 36px;
+    background: transparent url($ms-image-sprites) no-repeat -102px -134px;
+  }
+}
+
+.menu-item-container {
+  margin-top: 8px;
+}
+
+@mixin box-shadow( $x-axis: 0, $y-axis: 1px, $blur: 2px, $spread: 0, $color: $default) {
+  box-shadow: $x-axis $y-axis $blur $spread $color;
+}
+
+.menu-item-admin {
+  font-weight: 500;
+  display: block;
+  color: $black;
+  position: relative;
+  padding: 12px 0 12px 52px;
+  margin: 8px 8px;
+  &:before {
+    content: "";
+    display: block;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+  }
+  &.dashboard::before {
+    background-image: url($ms-image-ic_dashboard_default);
+  }
+  &.ic_employee::before{
+    background-image: url($ms-image-ic_employee_default);
+  }
+  &.movement::before{
+    background-image: url($ms-image-ic_movement_default);
+  }
+  &.emulation::before {
+    background-image: url($ms-image-ic_emulation_default);
+  }
+  &.reward::before {
+    background-image: url($ms-image-ic_reward_default);
+  }
+  &.category::before {
+    background-image: url($ms-image-ic_category_default);
+  }
+  &.report::before {
+    background-image: url($ms-image-ic_report_default);
+  }
+  &.system::before {
+    background-image: url($ms-image-ic_setting_default);
+  }
+  &.profile::before {
+    background-image: url($ms-image-ic_profile_default);
+  }
+  &.guide::before {
+    background-image: url($ms-image-ic_guide_default);
+  }
+  &.search::before {
+    background-image: url($ms-image-ic_search_default);
+  }
+  &:hover {
+    background: $main-left-menu-item-hover-bg;
+    color: $main-left-menu-item-hover-color;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  &.active {
+    color: $main-left-menu-item-active-color;
+    background: $main-left-menu-item-active-bg;
+    border-radius: 8px;
+  }
+  &.active,
+  &:hover {
+    &.dashboard::before {
+      background-image: url($ms-image-ic_dashboard);
+    }
+    &.ic_employee::before {
+      background-image: url($ms-image-ic_employee);
+    }
+    &.emulation::before {
+      background-image: url($ms-image-ic_emulation);
+    }
+    &.movement::before{
+      background-image: url($ms-image-ic_movement);
+    }
+    &.reward::before {
+      background-image: url($ms-image-ic_reward);
+    }
+    &.category::before {
+      background-image: url($ms-image-ic_category);
+    }
+    &.report::before {
+      background-image: url($ms-image-ic_report);
+    }
+    &.system::before {
+      background-image: url($ms-image-ic_setting);
+    }
+    &.profile::before {
+      background-image: url($ms-image-ic_profile);
+    }
+    &.guide::before {
+      background-image: url($ms-image-ic_guide);
+    }
+    &.search::before {
+      background-image: url($ms-image-ic_search);
+    }
+  }
+  .arrow-right {
+    background: url($ms-image-ic_arrow_black_right);
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    opacity: 1;
+    transition: opacity 0.6s linear;
+    &.hide {
+      opacity: 0;
+      transition: opacity 0s;
+    }
+  }
+  &.active .arrow-right,
+  &:hover .arrow-right {
+    background: url($ms-image-ic_arrow_color_right);
+  }
+  .menu-item-tooltip {
+    display: inline-block;
+    position: fixed;
+    background-color: #FFF;
+    color: #182D4B;
+    border: 1px solid #9e9e9e4f;
+    padding: 8px 15px;
+    border-radius: 8px;
+    margin-top: 0;
+    left: 60px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    @include box-shadow(0, 1.5px, 2px, 0, rgba(0,0,0,0.1));
+    &::before {
+        content: "";
+    display: block;
+    position: absolute;
+    left: -4px;
+    top: 10px;
+    transform: rotate(45deg);
+    width: 10px;
+    height: 10px;
+    background-color: inherit;
+    border-left: 1px solid #9e9e9e4f;
+    border-bottom: 1px solid #9e9e9e4f;
+    }
+  }
+  &:hover .menu-item-tooltip {
+    &.show {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
+
+
+$menuchild-width: 200px;
+.menuchild-container {
+  overflow: auto;
+  height: calc(100% + 1px);
+  position: absolute;
+  right: -$menuchild-width;
+  top: 0;
+  white-space: nowrap;
+  background-color: $white;
+  padding: 0 16px;
+  color: $black;
+  width: $menuchild-width;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.child-menu-label {
+  // font-weight: 500;
+  display: block;
+  text-transform: uppercase;
+  padding: 16px 0 8px 0;
+  &.system-group {
+    margin-top: 20px;
+  }
+  &.ultility-group {
+    margin-top: 20px;
+  }
+}
+
+.container {
+  height: 100%;
+}
+
+.menu-item-child {
+  // font-weight: 500;
+  display: block;
+  position: relative;
+  padding: 12px 0 12px 15px;
+  border-radius: 4px;
+
+  &.active {
+    background-color: $main-left-menu-child-item-active-bg;
+    border-radius: 4px;
+  }
+  &:hover {
+    background: $main-left-menu-child-item-hover-bg;
+    cursor: pointer;
+  }
+}
+
+//Css cho tiêu đề tra cứu không active NTTHANH1 21/03/2022
+.menu-item-admin.search.active {
+  color: #121212;
+  background: white;
+}
+
+.menu-item-admin.search::before {
+  background-image: url($ms-image-ic_search_default);
+}
+
+.menu-item-admin.active.search::before {
+  background-image: url($ms-image-ic_search_default);
+}
+
+.menu-item-admin.search:hover {
+  background: #eff7ff;
+  color: #ff5722;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.menu-item-admin:hover.search::before {
+  background-image: url($ms-image-ic_search);
+}

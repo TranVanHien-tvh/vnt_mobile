@@ -1,0 +1,15 @@
+.content {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;    
+    .contener-button {
+        width: 40px;
+    }
+    .contener-input {
+        width: 100%;
+
+    }   
+}
+.title {
+    margin-bottom: 10px;
+}

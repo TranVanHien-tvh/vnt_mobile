@@ -1,0 +1,17 @@
+@import "@/assets/scss/_variables.scss";
+
+.installing-container {
+  height: 100vh;
+  background: $white;
+}
+
+.content {
+  text-align: center;
+  width: 270px;
+}
+.img-bg {
+  background: transparent url("~@/assets/images/pages/bg_Install.svg") no-repeat
+    center center;
+  width: 270px;
+  height: 176px;
+}
